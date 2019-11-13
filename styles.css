@@ -1,5 +1,6 @@
 html{
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 body{
@@ -16,4 +17,12 @@ img {
     height: 300px;
     display: block;
     margin: 0 auto;
+}
+
+.success {
+    border: 10px solid green;
+}
+
+.failure {
+    border: 10px solid red;
 }

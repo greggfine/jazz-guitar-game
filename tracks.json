@@ -26,5 +26,19 @@ tracks = [
         "fileName": "grant-green_alone-together.mp3",
         "image": "grant-green.jpg",
         "info": "Green Stree(1961)"
+    },
+    {
+        "name": "Django Reinhardt",
+        "songTitle": "Minor Swing",
+        "fileName": "django-reinhardt_minor-swing.mp3",
+        "image": "Django_Reinhardt_(Gottlieb_07301).jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Jim Hall",
+        "songTitle": "My Kinda Love",
+        "fileName": "jim-hall_my-kinda-love.mp3",
+        "image": "jim-hall.png",
+        "info": "Unknown"
     }
 ]
