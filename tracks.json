@@ -1,0 +1,30 @@
+tracks = [
+    {
+        "name": "Joe Pass",
+        "songTitle": "Ain't Misbehavin'",
+        "fileName": "joe-pass_aint-misbehavin.mp3",
+        "image": "joe-pass-1024x576.jpg",
+        "info": "Joe Pass Solo on the Oscar Peterson and Friends BBC Prog"
+    },
+    {
+        "name": "Barney Kessel",
+        "songTitle": "Here's That Rainy Day",
+        "fileName": "barney-kessel_heres-that-rainy-day.mp3",
+        "image": "Barney_Kessel_2.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Herb Ellis",
+        "songTitle": "Sweetheart Blues",
+        "fileName": "herb-ellis_sweetheart-blues.mp3",
+        "image": "Herb_Ellis.jpg",
+        "info": "Ellis in Wonderland"
+    },
+    {
+        "name": "Grant Green",
+        "songTitle": "Alone Together",
+        "fileName": "grant-green_alone-together.mp3",
+        "image": "grant-green.jpg",
+        "info": "Green Stree(1961)"
+    }
+]
