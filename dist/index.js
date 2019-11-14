@@ -124,6 +124,7 @@ window.onload = () => {
         button.addEventListener('click', () => {
             disableButtons();
             successSFX.play();
+            img.src = '';
             whoIsThis.style.display = 'none';
             scoreWrapper.classList.add('success');
             score.textContent = scoreCount += 100;;
