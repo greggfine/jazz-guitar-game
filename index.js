@@ -3,6 +3,7 @@
 window.onload = () => {
     const score = document.getElementById('score');
     const lives = document.getElementById('lives');
+    const startGameBtn = document.getElementById('start-game-btn');
     const questionAndAnswerDisplay = document.getElementById('question-answer');
     const scoreWrapper = document.getElementById('score-wrapper');
     const livesWrapper = document.getElementById('lives-wrapper');
@@ -35,9 +36,12 @@ window.onload = () => {
     function init() {
         whoIsThis.style.display = playGame.style.display = 'block';
         gameOverDisplay.textContent = '';
-        lives.textContent = 3;
-        score.textContent = 0;
-        questionCount.textContent = '1/10';
+        scoreCount = 0;
+        livesCount = 3;
+        lives.textContent = livesCount;
+        score.textContent = scoreCount;
+        questionCountCounter = 1;
+        questionCount.textContent = `${questionCountCounter}/10`;
         removeButtons();
         removeClassNames();
         setRandomTrack();
@@ -158,5 +162,5 @@ window.onload = () => {
         shuffledBtns.forEach(btn => questionAndAnswerDisplay.appendChild(btn));
     }
 
-    init();
+    startGameBtn.addEventListener('click', () =>  init());
 }
