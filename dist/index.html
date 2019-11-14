@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jazz Guitar Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="play-game">
+            <h1>Jazz Guitar Game</h1>
+            <div id="question-answer"><h2 id="who-is-this">WHO IS THIS?</h2></div>
+            <h2 id="question-count-wrapper">Question Count: <span id="question-count"></span></h2>
+            <h2 id="score-wrapper">Score: <span id="score"></span></h2>
+            <h2 id="lives-wrapper">Lives: <span id="lives"></span></h2>
+            <input type="range" id="volume-control" min="0" max="1" step="0.001">Volume
+        </div>
+
+        <div id="game-over"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
+    <script src="tracks.json"></script>
+    <script src="index.js"></script>
+</body>
+</html>

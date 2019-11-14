@@ -1,2 +1,4 @@
 # Ignore reference folder containing my notes and diagrams
 ref
+
+node_modules
