@@ -5,19 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jazz Guitar Game</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+                <button id="start-game-btn">Start Game</button>
     <div class="container">
         <div id="play-game">
-            <h1>Jazz Guitar Game</h1>
-            <div id="question-answer"><h2 id="who-is-this">WHO IS THIS?</h2></div>
-            <h2 id="question-count-wrapper">Question Count: <span id="question-count"></span></h2>
-            <h2 id="score-wrapper">Score: <span id="score"></span></h2>
-            <h2 id="lives-wrapper">Lives: <span id="lives"></span></h2>
-            <button id="start-game-btn">Start Game</button>
-            <input type="range" id="volume-control" min="0" max="1" step="0.001">Volume
+            <h1>Name The Guitarist</h1>
+            
+            <div class="lives-score-count-wrapper">
+                <h2 id="lives-wrapper">Lives: <span id="lives"></span></h2>
+                <h2 id="question-count-wrapper"><span id="question-count"></span></h2>
+                <h2 id="score-wrapper">Score: <span id="score"></span></h2>
+            </div>
+            
+            <div id="question-answer-display">
+                <h2 id="who-is-this">???</h2>
+            </div>
+
+            <div class="btn-group"></div>
+            <div class="controls-buttons-wrapper">
+                <button id="volume-control"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+            </div>
         </div>
 
         <div id="game-over"></div>

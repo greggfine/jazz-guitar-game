@@ -1,0 +1,79 @@
+$background-yellow: #ffc107;
+$background-purple: #673ab7;
+
+html{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 1350px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: $background-yellow;
+    color: #fff;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    height: 10px;
+
+    button {
+        padding: 20px;
+        margin-right: 10px;
+        line-height: 5px;
+    }
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+img {
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    border-radius: 7px;
+    background-color: $background-purple;
+    padding: 10px 10px 30px;
+    margin-top: 20px;
+}
+
+.controls-buttons-wrapper {
+    display: flex;
+}
+
+.lives-score-count-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+#lives-wrapper, #score-wrapper {
+    padding: 5px;
+}
+
+#question-answer-display {
+    border: 1px solid #000;
+    height: 300px;
+    margin: 0 40px 20px;
+    background-color: lightgrey;
+}
+
+#who-is-this {
+    font-size: 6.5rem;
+    color: #000;
+}
+
+.success {
+    background-color: green;
+}
+
+.failure {
+    background-color: red;
+}
