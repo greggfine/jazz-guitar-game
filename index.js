@@ -3,70 +3,61 @@
 window.onload = () => {
     const score = document.getElementById('score');
     const lives = document.getElementById('lives');
-    const questionAndAnswer = document.getElementById('question-answer');
+    const questionAndAnswerDisplay = document.getElementById('question-answer');
     const scoreWrapper = document.getElementById('score-wrapper');
     const livesWrapper = document.getElementById('lives-wrapper');
     const volumeControl = document.getElementById('volume-control');
     const questionCount = document.getElementById('question-count');
     const whoIsThis = document.getElementById('who-is-this');
     const playGame = document.getElementById('play-game');
-    const gameOver = document.getElementById('game-over');
+    const gameOverDisplay = document.getElementById('game-over');
     const audio = document.createElement('audio');
-    const success = document.createElement('audio');
-    const failure = document.createElement('audio');
+    const successSFX = document.createElement('audio');
+    const failureSFX = document.createElement('audio');
     const img = document.createElement('img');
-    success.src = './audio/sfx/success.wav';
-    failure.src = './audio/sfx/failure.wav';
 
     let scoreCount = 0;
     let questionCountCounter = 1;
     let livesCount = 3;
     let currentTrack;
-    let buttonWasClicked = false;
-
-    const names = tracks.map(track => track.name);
-
+    
     score.textContent = scoreCount;
     questionCount.textContent = `${questionCountCounter}/10`;
     lives.textContent = livesCount;
+    successSFX.src = './audio/sfx/success.wav';
+    failureSFX.src = './audio/sfx/failure.wav';
+    
+    const guitaristNames = tracks.map(track => track.name);
+    const setupButtons = () => randomBtnAppend(createCorrectButton(currentTrack), createWrongButton());
+    const getRandomTrack = () => tracks[Math.floor(Math.random() * tracks.length)];
+    const getRandomName = (arr) => arr[Math.floor(Math.random() * guitaristNames.length)];
 
     function init() {
-        whoIsThis.style.display = 'block';
-        scoreCount = 0;
-        livesCount = 3;
-        questionCountCounter = 1;
-        gameOver.textContent = '';
-        lives.textContent = livesCount;
-        score.textContent = scoreCount;
-        questionCount.textContent = `${questionCountCounter}/10`;
+        whoIsThis.style.display = playGame.style.display = 'block';
+        gameOverDisplay.textContent = '';
+        lives.textContent = 3;
+        score.textContent = 0;
+        questionCount.textContent = '1/10';
         removeButtons();
         removeClassNames();
-        playGame.style.display = 'block';
         setRandomTrack();
         setupButtons();
         setInterval(() => {
-            audio.volume = volumeControl.value;
-            success.volume = volumeControl.value;
-            failure.volume = volumeControl.value;
+            audio.volume = successSFX.volume = failureSFX.volume = volumeControl.value;
         }, 0.5)
     }
 
-    init();
-
     function removeButtons(){
-        for (let child of Array.from(questionAndAnswer.children)) {
-            if (child.tagName === 'BUTTON') {
-                questionAndAnswer.removeChild(child)
-            }
-        }
+        removeClassNames();
+        Array.from(questionAndAnswerDisplay.children).forEach(child => {
+            child.tagName === 'BUTTON' ? questionAndAnswerDisplay.removeChild(child) : null            
+        })
     }
 
     function disableButtons() {
-        for (let child of Array.from(questionAndAnswer.children)) {
-            if (child.tagName === 'BUTTON') {
-                child.style.display = 'none'
-            }
-        }
+        Array.from(questionAndAnswerDisplay.children).forEach(child => {
+            child.tagName === 'BUTTON' ? child.style.display = 'none' : null
+        })
     }
 
     function setRandomTrack(){
@@ -76,98 +67,83 @@ window.onload = () => {
         audio.loop = true;
     }
 
-    function setupButtons(){
-        const btn1 = createCorrectButton(currentTrack);
-        const btn2 = createWrongButton();
-        randomBtnAppend(btn1, btn2);
-    }
-
-    function getRandomTrack(){
-        return tracks[Math.floor(Math.random() * tracks.length)]
-    }
-
-    function getRandomName(arr) {
-        return arr[Math.floor(Math.random() * names.length)]
-    }
-
     function displayImage(){
         img.style.display = 'block';
         img.src = `./images/${currentTrack.image}`;
-        questionAndAnswer.appendChild(img);
+        questionAndAnswerDisplay.appendChild(img);
     }
-
-    function hideImage(){
-        img.src = '';
-    }
-
-    function setupNextQuestion(){
-        audio.pause();
-        displayImage();
-        setTimeout(() => {
-            whoIsThis.style.display = 'block';
-            img.style.display = 'none';
-            hideImage();
-            setRandomTrack();
-            if(questionCountCounter === 10){
-                setGameOver();
-            }
-            questionCountCounter += 1;
-            questionCount.textContent = `${questionCountCounter}/10`;
-            removeClassNames();
-            removeButtons();
-            setupButtons();
-        }, 2000)
-    }
-
+    
     function removeClassNames(){
         scoreWrapper.className = '';
         livesWrapper.className = '';
     }
 
-    function setGameOver(){
-        playGame.style.display = 'none';
+    function revealCorrectAnswer(){
         audio.pause();
-        gameOver.textContent = `Game Over. Final Score: ${scoreCount}`;
+        displayImage();
+    }
+
+    function setupNextQuestion(){
+        revealCorrectAnswer();
+        setTimeout(() => {
+            if(questionCountCounter === 10) {
+                setGameOver();
+            } else{
+                questionCount.textContent = `${questionCountCounter += 1}/10`;
+                whoIsThis.style.display = 'block';
+                img.style.display = 'none';
+                setRandomTrack();
+                removeButtons();
+                setupButtons();
+            }}, 2000)
+    }
+
+    function setGameOver(){
+        revealCorrectAnswer();
+        setTimeout(() => {
+            img.style.display = playGame.style.display = 'none';
+            gameOverDisplay.textContent = `Game Over. Final Score: ${scoreCount}`;
+            createPlayAgainButton();
+        }, 2000)
+    }
+
+    function createPlayAgainButton(){
         const button = document.createElement('button');
-        button.textContent = "Play Again?"
-        gameOver.appendChild(button);
-        button.addEventListener('click', () => {
-            init();
-        })
+        button.textContent = "Play Again?";
+        gameOverDisplay.appendChild(button);
+        button.addEventListener('click', () => init());
     }
 
     function createCorrectButton(currentTrack){
         const button =  document.createElement('button');
         button.textContent = `${currentTrack.name}`;
         button.addEventListener('click', () => {
-            whoIsThis.style.display = 'none';
             disableButtons();
-            success.play();
+            successSFX.play();
+            whoIsThis.style.display = 'none';
             scoreWrapper.classList.add('success');
-            scoreCount += 100;
-            score.textContent = scoreCount;
+            score.textContent = scoreCount += 100;;
             setupNextQuestion();
         }, { once: true })
         return button;
     }
 
     function createWrongButton() {
-        let notFound = true;
         const button = document.createElement('button');
-        while(notFound){
-            let randomName = getRandomName(names);
-            if (randomName !== currentTrack.name){
+        while (!button.textContent) {
+            let randomName = getRandomName(guitaristNames);
+            if (randomName !== currentTrack.name) {
                 button.textContent = randomName;
-                notFound = false;
-            } 
+            }
         }
         button.addEventListener('click', () => {
-            whoIsThis.style.display = 'none';
             disableButtons();
-            failure.play();
+            failureSFX.play();
+            whoIsThis.style.display = 'none';
             livesWrapper.classList.add('failure');
             livesCount -= 1;
             if(livesCount === 0){
+                lives.textContent = 0;
                 setGameOver();
             } else{
                 lives.textContent = livesCount;
@@ -177,11 +153,10 @@ window.onload = () => {
         return button;
     }
 
-    function randomBtnAppend(btn1, btn2){
-        const btnNums = _.shuffle([btn1, btn2]);
-        for(let button of btnNums){
-            questionAndAnswer.appendChild(button)
-        }
+    function randomBtnAppend(...buttons) {
+        const shuffledBtns = _.shuffle([...buttons]);
+        shuffledBtns.forEach(btn => questionAndAnswerDisplay.appendChild(btn));
     }
-}
 
+    init();
+}
