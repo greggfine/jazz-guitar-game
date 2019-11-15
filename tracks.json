@@ -47,5 +47,26 @@ tracks = [
         "fileName": "charlie-christian_swing-to-bop.mp3",
         "image": "charlie-christian.jpg",
         "info": "1941"
+    },
+    {
+        "name": "Wes Montgomery",
+        "songTitle": "West Coast Blues",
+        "fileName": "wes-montgomery_west-coast-blues.mp3",
+        "image": "wes-montgomery.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Kenny Burrell",
+        "songTitle": "Saturday Night Blues",
+        "fileName": "kenny-burrell_saturday-night-blues.mp3",
+        "image": "kenny-burrel.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Pat Martino",
+        "songTitle": "Oleo",
+        "fileName": "pat-martino_oleo.mp3",
+        "image": "pat-martino.jpg",
+        "info": "Desperado Album"
     }
 ]

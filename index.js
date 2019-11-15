@@ -29,7 +29,7 @@
     score.textContent = scoreCount;
     questionCount.textContent = `${questionCountCounter}/10`;
     lives.textContent = livesCount;
-    successSFX.src = './audio/sfx/success/success.mp3';
+    successSFX.src = './audio/sfx/success/gregg-omnisphere.mp3';
     // failureSFX.src = './audio/sfx/failure/Soft.wav';
     failureSFX.src = './audio/sfx/failure/2_DANCE_FX_DANCE_1_003.mp3';
     gameOverSFX.src = './audio/sfx/game_over/Cutting Power.mp3';
@@ -109,11 +109,12 @@
         displayImage();
         displayName();
     }
-
+    
     function setupNextQuestion(){
         revealCorrectAnswer();
         setTimeout(() => {
             if(questionCountCounter === 10) {
+                removeNameText();
                 setGameOver();
             } else{
                 questionCount.textContent = `${questionCountCounter += 1}/10`;
