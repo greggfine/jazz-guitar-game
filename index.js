@@ -17,6 +17,7 @@
     const audio = document.createElement('audio');
     const successSFX = document.createElement('audio');
     const failureSFX = document.createElement('audio');
+    const gameOverSFX = document.createElement('audio');
     const img = document.createElement('img');
     const container = document.querySelector('.container');
 
@@ -28,8 +29,10 @@
     score.textContent = scoreCount;
     questionCount.textContent = `${questionCountCounter}/10`;
     lives.textContent = livesCount;
-    successSFX.src = './audio/sfx/success.wav';
-    failureSFX.src = './audio/sfx/failure.wav';
+    successSFX.src = './audio/sfx/success/success.mp3';
+    // failureSFX.src = './audio/sfx/failure/Soft.wav';
+    failureSFX.src = './audio/sfx/failure/2_DANCE_FX_DANCE_1_003.mp3';
+    gameOverSFX.src = './audio/sfx/game_over/Cutting Power.mp3';
     
     volumeControl.addEventListener('click', function () {
         audio.muted? audio.muted = false : audio.muted = true
@@ -46,6 +49,7 @@
     const getRandomName = (arr) => arr[Math.floor(Math.random() * guitaristNames.length)];
 
     function init() {
+        gameOverSFX.muted = true; 
         startGameDisplay.style.display = 'none';
         whoIsThis.style.display = playGame.style.display = container.style.display = 'block';
         gameOverDisplay.textContent = '';
@@ -84,12 +88,13 @@
 
     function displayImage(){
         img.style.display = 'block';
-        img.src = `./images/${currentTrack.image}`;
+        img.src = `./images/optimized/${currentTrack.image}`;
         questionAndAnswerDisplay.appendChild(img);
     }
 
     function displayName(){
         const h3 = document.createElement('h3');
+        h3.style.fontSize = '2rem';
         h3.textContent = currentTrack.name;
         questionAndAnswerDisplay.appendChild(h3);
     }
@@ -130,8 +135,11 @@
     function setGameOver(){
         revealCorrectAnswer();
         setTimeout(() => {
+            gameOverSFX.muted = false;
+            gameOverSFX.play();
             img.style.display = playGame.style.display = 'none';
-            gameOverDisplay.textContent = `Game Over. Final Score: ${scoreCount}`;
+            gameOverDisplay.innerHTML = ` <h1>Game Over<h1>
+                 <h2>Final Score: ${scoreCount}<h2>`
             createPlayAgainButton();
         }, 2000)
     }
@@ -143,7 +151,12 @@
 
     function createPlayAgainButton(){
         const button = document.createElement('button');
-        button.textContent = "Play Again?";
+        button.innerHTML = `
+                <i class="fa fa-play" aria-hidden="true">
+                </i>
+                <span>Play Again?</span>`;
+        button.style.padding = '3rem 1.5rem';
+        button.querySelector('i').style.fontSize = '4rem';
         gameOverDisplay.appendChild(button);
         button.addEventListener('click', () => init());
     }
@@ -152,8 +165,8 @@
         const button =  document.createElement('button');
         button.textContent = `${currentTrack.name}`;
         button.addEventListener('click', () => {
-            disableButtons();
             successSFX.play();
+            disableButtons();
             img.src = '';
             whoIsThis.style.display = 'none';
             scoreWrapper.classList.add('success');
@@ -172,8 +185,8 @@
             }
         }
         button.addEventListener('click', () => {
-            disableButtons();
             failureSFX.play();
+            disableButtons();
             img.src = '';
             whoIsThis.style.display = 'none';
             livesWrapper.classList.add('failure');
