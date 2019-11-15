@@ -31,6 +31,10 @@ body {
   border: 10px solid #8f8f8f;
 }
 
+button {
+  background-color: #fff;
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -43,7 +47,8 @@ img {
 
 .container {
   border-radius: 7px;
-  background-color: #673ab7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#673ab7), to(#4527a0));
+  background: linear-gradient(to bottom, #673ab7, #4527a0);
   padding: 10px 10px 30px;
   margin-top: 20px;
 }
@@ -74,9 +79,9 @@ img {
 }
 
 #volume-control {
-  width: 30px;
   position: relative;
   left: 40px;
+  width: 40px;
 }
 
 #who-is-this {
@@ -211,11 +216,45 @@ img {
 }
 
 @media screen and (max-width: 600px) {
+  .btn-group {
+    padding-bottom: 60px;
+  }
   .btn-group button {
     margin-right: 15px;
+    padding: 15px;
+    font-size: 0.8rem;
+  }
+  .container {
+    border-radius: 0px;
+    margin-top: 0px;
+  }
+  .lives-score-count-wrapper {
+    font-size: 0.8rem;
   }
   #volume-control {
-    left: 0px;
+    display: none;
+  }
+  .youtube-wrapper .channel-title-icon-wrapper {
+    left: 60px;
+  }
+  .youtube-wrapper img {
+    width: 120px;
+    height: 120px;
+  }
+  .youtube-wrapper p {
+    height: 20px;
+    border: 4px solid #fff;
+    padding: 7px;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+  }
+  .youtube-wrapper p span {
+    font-size: 0.9rem;
+  }
+  .youtube-wrapper i {
+    font-size: 3rem;
+    top: 50px;
+    right: 150px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
