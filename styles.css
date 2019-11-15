@@ -72,6 +72,10 @@ img {
   background-color: lightgrey;
 }
 
+#volume-control {
+  width: 30px;
+}
+
 #who-is-this {
   font-size: 6.5rem;
   color: #000;
@@ -83,5 +87,45 @@ img {
 
 .failure {
   background-color: red;
+}
+
+#start-game-display {
+  height: 430px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#start-game-display #start-game-btn {
+  padding: 3rem 1.5rem;
+}
+
+#start-game-display #start-game-btn i {
+  font-size: 4rem;
+}
+
+.youtube-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.youtube-wrapper img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
 /*# sourceMappingURL=styles.css.map */

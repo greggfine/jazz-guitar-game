@@ -4,6 +4,7 @@
     const score = document.getElementById('score');
     const lives = document.getElementById('lives');
     const startGameBtn = document.getElementById('start-game-btn');
+    const startGameDisplay = document.getElementById('start-game-display');
     const questionAndAnswerDisplay = document.getElementById('question-answer-display');
     const scoreWrapper = document.getElementById('score-wrapper');
     const livesWrapper = document.getElementById('lives-wrapper');
@@ -45,7 +46,7 @@
     const getRandomName = (arr) => arr[Math.floor(Math.random() * guitaristNames.length)];
 
     function init() {
-        startGameBtn.style.display = 'none';
+        startGameDisplay.style.display = 'none';
         whoIsThis.style.display = playGame.style.display = container.style.display = 'block';
         gameOverDisplay.textContent = '';
         scoreCount = 0;
@@ -136,7 +137,7 @@
     }
 
     function startGame(){
-        img.style.display = playGame.style.display = container.style.display = 'none';
+        img.style.display = playGame.style.display  = 'none';
         startGameBtn.addEventListener('click', () =>  init());
     }
 

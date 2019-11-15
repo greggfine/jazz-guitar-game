@@ -10,10 +10,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-                <button id="start-game-btn">Start Game</button>
-    <div class="container">
+     <div class="container">
+        <div id="start-game-display">
+            <h1>Let's Play "Name The Guitarist"!</h1>
+            <button id="start-game-btn">
+                <i class="fa fa-play" aria-hidden="true">
+                </i>
+                <span>Start Game</span>  
+            </button>
+        </div>
         <div id="play-game">
-            <h1>Name The Guitarist</h1>
             
             <div class="lives-score-count-wrapper">
                 <h2 id="lives-wrapper">Lives: <span id="lives"></span></h2>
@@ -27,11 +33,18 @@
 
             <div class="btn-group"></div>
             <div class="controls-buttons-wrapper">
-                <button id="volume-control"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                <button id="volume-control">
+                    <i class="fa fa-volume-up" aria-hidden="true"></i>
+                </button>
             </div>
         </div>
 
         <div id="game-over"></div>
+    </div>
+    <div class="youtube-wrapper">
+        <a href="https://www.youtube.com/channel/UCWFnxg02ITStRxn4sotkJng?view_as=subscriber" target="_blank">Check out my
+            YouTube Channel!</a>
+        <img src="./images/gf_profile-pic.png" alt="Gregg Fine Profile Pic" class="profile-pic">
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
