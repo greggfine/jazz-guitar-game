@@ -1,27 +1,131 @@
-html{
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    width: 1750px;
-    margin: 0 auto;
-    text-align: center;
-    border: 1px solid #000;
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1350px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 10px;
+}
+
+.btn-group button {
+  padding: 20px;
+  margin-right: 10px;
+  line-height: 5px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 img {
-    height: 300px;
-    display: block;
-    margin: 0 auto;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  border-radius: 7px;
+  background-color: #673ab7;
+  padding: 10px 10px 30px;
+  margin-top: 20px;
+}
+
+.controls-buttons-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.lives-score-count-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#lives-wrapper, #score-wrapper {
+  padding: 5px;
+}
+
+#question-answer-display {
+  border: 1px solid #000;
+  height: 300px;
+  margin: 0 40px 20px;
+  background-color: lightgrey;
+}
+
+#volume-control {
+  width: 30px;
+}
+
+#who-is-this {
+  font-size: 6.5rem;
+  color: #000;
 }
 
 .success {
-    border: 10px solid green;
+  background-color: green;
 }
 
 .failure {
-    border: 10px solid red;
+  background-color: red;
 }
+
+#start-game-display {
+  height: 430px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#start-game-display #start-game-btn {
+  padding: 3rem 1.5rem;
+}
+
+#start-game-display #start-game-btn i {
+  font-size: 4rem;
+}
+
+.youtube-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.youtube-wrapper img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+/*# sourceMappingURL=styles.css.map */
