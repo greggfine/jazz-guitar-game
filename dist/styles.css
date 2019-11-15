@@ -1,11 +1,10 @@
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: Tahoma, Arial, sans-serif;
 }
 
 body {
-  margin: 0;
   padding: 0;
   max-width: 1350px;
   margin: 0 auto;
@@ -22,12 +21,14 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   height: 10px;
+  margin-bottom: 10px;
 }
 
 .btn-group button {
   padding: 20px;
-  margin-right: 10px;
+  margin-right: 30px;
   line-height: 5px;
+  border: 10px solid #8f8f8f;
 }
 
 button:hover {
@@ -68,12 +69,14 @@ img {
 #question-answer-display {
   border: 1px solid #000;
   height: 300px;
-  margin: 0 40px 20px;
+  margin: 0 40px 10px;
   background-color: lightgrey;
 }
 
 #volume-control {
   width: 30px;
+  position: relative;
+  left: 40px;
 }
 
 #who-is-this {
@@ -106,26 +109,113 @@ img {
           align-items: center;
 }
 
-#start-game-display #start-game-btn {
-  padding: 3rem 1.5rem;
-}
-
-#start-game-display #start-game-btn i {
+#start-game-display h1 {
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+  font-family: 'Amatic SC', cursive;
   font-size: 4rem;
 }
 
-.youtube-wrapper {
+#start-game-btn {
+  padding: 3rem 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 5px;
+}
+
+#start-game-btn i {
+  font-size: 4rem;
+  color: darkgreen;
+  padding-right: 10px;
+}
+
+.youtube-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 340px;
+  text-decoration: none;
+}
+
+.youtube-wrapper:hover {
+  -webkit-transform: scale(1.015);
+          transform: scale(1.015);
+}
+
+.youtube-wrapper .channel-title-icon-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 100px;
+  bottom: 40px;
 }
 
 .youtube-wrapper img {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
+  -webkit-clip-path: circle(37%);
+          clip-path: circle(37%);
+}
+
+.youtube-wrapper p {
+  color: #fff;
+  font-family: Tahoma, Arial, sans-serif;
+  font-weight: 800;
+  height: 20px;
+  border: 5px solid #fff;
+  background-color: #2A62F6;
+  padding: 7px;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.youtube-wrapper p span {
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+.youtube-wrapper i {
+  font-size: 2.5rem;
+  color: #ff0000;
+  padding: 20px;
+  position: relative;
+  top: 0px;
+  right: 10px;
+}
+
+#game-over button {
+  padding: 3rem 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#game-over button i {
+  font-size: 4rem;
+  color: darkgreen;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .btn-group button {
+    margin-right: 15px;
+  }
+  #volume-control {
+    left: 0px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

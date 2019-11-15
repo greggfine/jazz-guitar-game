@@ -40,5 +40,12 @@ tracks = [
         "fileName": "jim-hall_my-kinda-love.mp3",
         "image": "jim-hall.png",
         "info": "Unknown"
+    },
+    {
+        "name": "Charlie Christian",
+        "songTitle": "Swing To Bop",
+        "fileName": "charlie-christian_swing-to-bop.mp3",
+        "image": "charlie-christian.jpg",
+        "info": "1941"
     }
 ]
