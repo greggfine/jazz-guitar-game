@@ -1,0 +1,178 @@
+tracks = [
+    {
+        "name": "Al Di Meola",
+        "songTitle": "Nena",
+        "fileName": "al-di-meola_nena.mp3",
+        "image": "al-di-meola.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Attila Zoller",
+        "songTitle": "Wild Wild West",
+        "fileName": "attila-zoller_wild-wild-wes.mp3",
+        "image": "attila-zoller.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Barney Kessel",
+        "songTitle": "Here's That Rainy Day",
+        "fileName": "barney-kessel_heres-that-rainy-day.mp3",
+        "image": "barney-kessel.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Bill Frisell",
+        "songTitle": "I Got Rhythm",
+        "fileName": "bill-frisell_i-got-rhythm.mp3",
+        "image": "bill-frisell.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Bucky Pizzarelli",
+        "songTitle": "In A Mellowtone",
+        "fileName": "bucky-pizzarelli_in-a-mellowtone.mp3",
+        "image": "bucky-pizzarelli.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Charlie Byrd",
+        "songTitle": "You Stepped Out Of A Dream",
+        "fileName": "charlie-byrd_you-stepped-out-of-a-dream.mp3",
+        "image": "charlie-byrd.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Charlie Christian",
+        "songTitle": "Swing To Bop",
+        "fileName": "charlie-christian_swing-to-bop.mp3",
+        "image": "charlie-christian.jpg",
+        "info": "1941"
+    },
+    {
+        "name": "Django Reinhardt",
+        "songTitle": "Minor Swing",
+        "fileName": "django-reinhardt_minor-swing.mp3",
+        "image": "django-reinhardt.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Eddie Lang",
+        "songTitle": "Perfect",
+        "fileName": "eddie-lang_perfect.mp3",
+        "image": "eddie-lang.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Emily Remler",
+        "songTitle": "Blue For Herb",
+        "fileName": "emily-remler_blues-for-herb.mp3",
+        "image": "emily-remler.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Grant Green",
+        "songTitle": "Alone Together",
+        "fileName": "grant-green_alone-together.mp3",
+        "image": "grant-green.jpg",
+        "info": "Green Stree(1961)"
+    },
+    {
+        "name": "Herb Ellis",
+        "songTitle": "Sweetheart Blues",
+        "fileName": "herb-ellis_sweetheart-blues.mp3",
+        "image": "Herb_Ellis.jpg",
+        "info": "Ellis in Wonderland"
+    },
+    {
+        "name": "Howard Roberts",
+        "songTitle": "Everything Happens To Me",
+        "fileName": "howard-roberts_everything-happens-to-me.mp3",
+        "image": "howard-roberts.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Jimmy Raney",
+        "songTitle": "Autumn Leaves",
+        "fileName": "jimmy-raney_autumn-leaves.mp3",
+        "image": "jimmy-raney.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Joe Pass",
+        "songTitle": "Ain't Misbehavin'",
+        "fileName": "joe-pass_aint-misbehavin.mp3",
+        "image": "joe-pass-1024x576.jpg",
+        "info": "Joe Pass Solo on the Oscar Peterson and Friends BBC Prog"
+    },
+    {
+        "name": "Jim Hall",
+        "songTitle": "My Kinda Love",
+        "fileName": "jim-hall_my-kinda-love.mp3",
+        "image": "jim-hall.png",
+        "info": "Unknown"
+    },
+    {
+        "name": "John Scofield",
+        "songTitle": "All The Things You Are",
+        "fileName": "john-scofield_all-the-things-you-are.mp3",
+        "image": "john-scofield.png",
+        "info": "Unknown"
+    },
+    {
+        "name": "Kenny Burrell",
+        "songTitle": "Saturday Night Blues",
+        "fileName": "kenny-burrell_saturday-night-blues.mp3",
+        "image": "kenny-burrel.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Larry Coryell",
+        "songTitle": "Black Orpheus",
+        "fileName": "larry-coryell_black-orpheus.mp3",
+        "image": "larry-coryell.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Lenny Breau",
+        "songTitle": "Lullaby Of Birdland",
+        "fileName": "lenny-breau_lullaby-of-birdland.mp3",
+        "image": "lenny-breau.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Mike Stern",
+        "songTitle": "Like Someone In Love",
+        "fileName": "mike-stern_like-someone-in-love.mp3",
+        "image": "mike-stern.jpg",
+        "info": "Standards"
+    },
+    {
+        "name": "Pat Martino",
+        "songTitle": "Oleo",
+        "fileName": "pat-martino_oleo.mp3",
+        "image": "pat-martino.jpg",
+        "info": "Desperado Album"
+    },
+    {
+        "name": "Pat Metheny",
+        "songTitle": "Solar",
+        "fileName": "pat-metheny_solar.mp3",
+        "image": "pat-metheny.jpg",
+        "info": "Question and Answer"
+    },
+    {
+        "name": "Tal Farlow",
+        "songTitle": "How About You?",
+        "fileName": "tal-farlow_how-about-you.mp3",
+        "image": "tal-farlow.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Wes Montgomery",
+        "songTitle": "West Coast Blues",
+        "fileName": "wes-montgomery_west-coast-blues.mp3",
+        "image": "wes-montgomery.jpg",
+        "info": "Unknown"
+    },
+]
+
