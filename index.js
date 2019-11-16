@@ -29,7 +29,7 @@
     score.textContent = scoreCount;
     questionCount.textContent = `${questionCountCounter}/10`;
     lives.textContent = livesCount;
-    successSFX.src = './audio/sfx/success/gregg-omnisphere.mp3';
+    successSFX.src = './audio/sfx/success/gregg-omnisphere2.mp3';
     // failureSFX.src = './audio/sfx/failure/Soft.wav';
     failureSFX.src = './audio/sfx/failure/2_DANCE_FX_DANCE_1_003.mp3';
     gameOverSFX.src = './audio/sfx/game_over/Cutting Power.mp3';
@@ -88,9 +88,6 @@
 
     function displayImage(){
         img.style.display = 'block';
-        // window.innerWidth > 400? img.style.width = '400px':
-        //                          img.style.width = '100%';
-        // img.style.width = '300px';
         img.src = `./images/optimized/${currentTrack.image}`;
         questionAndAnswerDisplay.appendChild(img);
     }

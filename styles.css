@@ -73,10 +73,9 @@ img {
 }
 
 #question-answer-display {
-  border: 1px solid #000;
   height: 300px;
   margin: 0 40px 10px;
-  background-color: lightgrey;
+  background-color: rgba(220, 220, 200, 0.2);
 }
 
 #volume-control {
@@ -231,6 +230,10 @@ img {
   }
   .lives-score-count-wrapper {
     font-size: 0.8rem;
+  }
+  #question-answer-display {
+    background-color: transparent;
+    border: none;
   }
   #volume-control {
     display: none;
