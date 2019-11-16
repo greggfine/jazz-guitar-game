@@ -41,6 +41,7 @@ button:hover {
 
 img {
   height: 300px;
+  width: 313px;
   display: block;
   margin: 0 auto;
 }
@@ -255,6 +256,27 @@ img {
     font-size: 3rem;
     top: 50px;
     right: 150px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #question-answer-display {
+    margin: 0 auto 0px;
+  }
+  .youtube-wrapper {
+    width: 200px;
+  }
+  .youtube-wrapper p {
+    height: 30px;
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+  .youtube-wrapper p span {
+    font-size: 0.9rem;
+  }
+  .youtube-wrapper i {
+    top: 60px;
+    right: 50px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

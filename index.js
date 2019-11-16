@@ -88,6 +88,9 @@
 
     function displayImage(){
         img.style.display = 'block';
+        // window.innerWidth > 400? img.style.width = '400px':
+        //                          img.style.width = '100%';
+        // img.style.width = '300px';
         img.src = `./images/optimized/${currentTrack.image}`;
         questionAndAnswerDisplay.appendChild(img);
     }

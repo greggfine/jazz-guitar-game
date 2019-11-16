@@ -10,7 +10,7 @@ tracks = [
         "name": "Barney Kessel",
         "songTitle": "Here's That Rainy Day",
         "fileName": "barney-kessel_heres-that-rainy-day.mp3",
-        "image": "Barney_Kessel_2.jpg",
+        "image": "barney-kessel.jpg",
         "info": "Unknown"
     },
     {
@@ -31,7 +31,7 @@ tracks = [
         "name": "Django Reinhardt",
         "songTitle": "Minor Swing",
         "fileName": "django-reinhardt_minor-swing.mp3",
-        "image": "Django_Reinhardt_(Gottlieb_07301).jpg",
+        "image": "django-reinhardt.jpg",
         "info": "Unknown"
     },
     {
