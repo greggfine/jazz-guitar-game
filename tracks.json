@@ -21,11 +21,32 @@ tracks = [
         "info": "Unknown"
     },
     {
+        "name": "Barry Galbraith",
+        "songTitle": "He Was Too Good To Me",
+        "fileName": "barry-galbraith_he-was-too-good-to-me.mp3",
+        "image": "barry-galbraith.jpg",
+        "info": "https://www.youtube.com/watch?v=0lrakx9Cezs"
+    },
+    {
+        "name": "Billy Bauer",
+        "songTitle": "It's a Blue World",
+        "fileName": "bill-bauer_it's-a-blue-world.mp3",
+        "image": "billy-bauer.jpeg",
+        "info": "https://www.youtube.com/watch?v=qDLPDd8ZhQA"
+    },
+    {
         "name": "Bill Frisell",
         "songTitle": "I Got Rhythm",
         "fileName": "bill-frisell_i-got-rhythm.mp3",
         "image": "bill-frisell.jpg",
         "info": "Unknown"
+    },
+    {
+        "name": "Bireli Lagrene",
+        "songTitle": "Donna Lee",
+        "fileName": "bireli-lagrene_donna-lee.mp3",
+        "image": "bireli-lagrene.jpg",
+        "info": "https://www.youtube.com/watch?v=5bsPUn0D7ug"
     },
     {
         "name": "Bucky Pizzarelli",
@@ -49,11 +70,67 @@ tracks = [
         "info": "1941"
     },
     {
+        "name": "Chuck Loeb",
+        "songTitle": "Like Someone In Love",
+        "fileName": "chuck-loeb_like-someone-in-love.mp3",
+        "image": "chuck-loeb.jpg",
+        "info": "https://www.youtube.com/watch?v=ZNM-LN91rOc"
+    },
+    {
+        "name": "Chuck Wayne",
+        "songTitle": "Tasty Pudding",
+        "fileName": "chuck-wayne_tasty-pudding.mp3",
+        "image": "chuck-wayne.jpg",
+        "info": "https://www.youtube.com/watch?v=M0B9BGs6B-s"
+    },
+    {
         "name": "Django Reinhardt",
         "songTitle": "Minor Swing",
         "fileName": "django-reinhardt_minor-swing.mp3",
         "image": "django-reinhardt.jpg",
         "info": "Unknown"
+    },
+    {
+        "name": "Django Reinhardt",
+        "songTitle": "Nuages",
+        "fileName": "django-reinhardt_nuages.mp3",
+        "image": "django-reinhardt.jpg",
+        "info": "https://www.youtube.com/watch?v=DY0FF4iR9Cw"
+    },
+    {
+        "name": "Django Reinhardt",
+        "songTitle": "I'll See You In My Dreams",
+        "fileName": "django-reinhardt_ill-see-you-in-my-dreams.mp3",
+        "image": "django-reinhardt.jpg",
+        "info": "https://www.youtube.com/watch?v=hNRHHRjep3E"
+    },
+    {
+        "name": "Django Reinhardt",
+        "songTitle": "Honeysuckle Rose",
+        "fileName": "django-reinhardt_honeysuckle-rose.mp3",
+        "image": "django-reinhardt.jpg",
+        "info": "https://www.youtube.com/watch?v=QATIHWbN-sM"
+    },
+    {
+        "name": "Django Reinhardt",
+        "songTitle": "La Mer",
+        "fileName": "django-reinhardt_la-mer.mp3",
+        "image": "django-reinhardt.jpg",
+        "info": "https://www.youtube.com/watch?v=tgNQ4FR6Me8"
+    },
+    {
+        "name": "Earl Klugh",
+        "songTitle": "Wishful Thinking",
+        "fileName": "earl-klugh_wishful-thinking.mp3",
+        "image": "earl-klugh.jpeg",
+        "info": "https://www.youtube.com/watch?v=ocIaFT0hH3c"
+    },
+    {
+        "name": "Ed Bickert",
+        "songTitle": "You're In Love With Someone",
+        "fileName": "ed-bickert_you're-in-love-with-someone.mp3",
+        "image": "ed-bickert.jpg",
+        "info": "https://www.youtube.com/watch?v=zNjxvZ84h6A"
     },
     {
         "name": "Eddie Lang",
@@ -70,6 +147,55 @@ tracks = [
         "info": "Unknown"
     },
     {
+        "name": "Eric Gale",
+        "songTitle": "Dindi",
+        "fileName": "eric-gale_dindi.mp3",
+        "image": "eric-gale.jpg",
+        "info": "https://www.youtube.com/watch?v=tnd4722ZHn4"
+    },
+    {
+        "name": "Frank Gambale",
+        "songTitle": "Magritte",
+        "fileName": "frank-gamble_magritte.mp3",
+        "image": "frank-gambale.jpg",
+        "info": "https://www.youtube.com/watch?v=Kmp6gm7PfL4"
+    },
+    {
+        "name": "Gabor Szabo",
+        "songTitle": "Breezin'",
+        "fileName": "gabor-szabo_breezin.mp3",
+        "image": "gabor-szabo.jpg",
+        "info": "https://www.youtube.com/watch?v=ibhh_z6pG6c"
+    },
+    {
+        "name": "Gene Bertoncini",
+        "songTitle": "Someone To Light Up My Life",
+        "fileName": "gene-bertoncini_someone-to-light-up-my-life.mp3",
+        "image": "gene-bertoncini.jpg",
+        "info": "https://www.youtube.com/watch?v=cBYcxCMKlqk"
+    },
+    {
+        "name": "George Barnes",
+        "songTitle": "Have You Met Miss Jones?",
+        "fileName": "george-barnes_have-you-met-miss-jones.mp3",
+        "image": "george-barnes.jpg",
+        "info": "https://www.youtube.com/watch?v=9yW5F51XTjg"
+    },
+    {
+        "name": "George Benson",
+        "songTitle": "Love For Sale",
+        "fileName": "george-benson_love-for-sale.mp3",
+        "image": "george-benson.jpg",
+        "info": "https://www.youtube.com/watch?v=rPkr5QOwqgg"
+    },
+    {
+        "name": "George Van Eps",
+        "songTitle": "Spanish Eyes",
+        "fileName": "george-van-eps_spanish-eyes.mp3",
+        "image": "george-van-eps.jpg",
+        "info": "https://www.youtube.com/watch?v=jEhYOtkT4xc"
+    },
+    {
         "name": "Grant Green",
         "songTitle": "Alone Together",
         "fileName": "grant-green_alone-together.mp3",
@@ -77,17 +203,45 @@ tracks = [
         "info": "Green Stree(1961)"
     },
     {
+        "name": "Hank Garland",
+        "songTitle": "Cherokee",
+        "fileName": "hank-garland_cherokee.mp3",
+        "image": "hank-garland.jpg",
+        "info": "https://www.youtube.com/watch?v=JroZoAtJn9I"
+    },
+    {
         "name": "Herb Ellis",
         "songTitle": "Sweetheart Blues",
         "fileName": "herb-ellis_sweetheart-blues.mp3",
-        "image": "Herb_Ellis.jpg",
+        "image": "herb-ellis.jpg",
         "info": "Ellis in Wonderland"
+    },
+    {
+        "name": "Howard Alden",
+        "songTitle": "Tune For a Lyric",
+        "fileName": "howard-alden_tune-for-a-lyric.mp3",
+        "image": "howard-alden.jpg",
+        "info": "https://www.youtube.com/watch?v=AFr5vBfCMSA"
     },
     {
         "name": "Howard Roberts",
         "songTitle": "Everything Happens To Me",
         "fileName": "howard-roberts_everything-happens-to-me.mp3",
         "image": "howard-roberts.jpg",
+        "info": "Unknown"
+    },
+    {
+        "name": "Jack Wilkins",
+        "songTitle": "Invitation",
+        "fileName": "jack-wilkins_invitation.mp3",
+        "image": "jack-wilkins.jpg",
+        "info": "https://www.youtube.com/watch?v=_TwCRbYMyDk"
+    },
+    {
+        "name": "Jim Hall",
+        "songTitle": "My Kinda Love",
+        "fileName": "jim-hall_my-kinda-love.mp3",
+        "image": "jim-hall.jpg",
         "info": "Unknown"
     },
     {
@@ -98,18 +252,81 @@ tracks = [
         "info": "Unknown"
     },
     {
+        "name": "Joe Diorio",
+        "songTitle": "Solar",
+        "fileName": "joe-diorio_solar.mp3",
+        "image": "joe-diorio.jpeg",
+        "info": "https://www.youtube.com/watch?v=tB_k_Ma5OdA"
+    },
+    {
         "name": "Joe Pass",
         "songTitle": "Ain't Misbehavin'",
         "fileName": "joe-pass_aint-misbehavin.mp3",
-        "image": "joe-pass-1024x576.jpg",
+        "image": "joe-pass.jpg",
         "info": "Joe Pass Solo on the Oscar Peterson and Friends BBC Prog"
     },
     {
-        "name": "Jim Hall",
-        "songTitle": "My Kinda Love",
-        "fileName": "jim-hall_my-kinda-love.mp3",
-        "image": "jim-hall.png",
-        "info": "Unknown"
+        "name": "Joe Pass",
+        "songTitle": "There Will Never Be Another You",
+        "fileName": "joe-pass_there-will-never-be-another-you.mp3",
+        "image": "joe-pass.jpg",
+        "info": "https://www.youtube.com/watch?v=y_kmTizHeZk"
+    },
+    {
+        "name": "Joe Pass",
+        "songTitle": "Summertime",
+        "fileName": "joe-pass_summertime.mp3",
+        "image": "joe-pass.jpg",
+        "info": "https://www.youtube.com/watch?v=t4Iw5cgL53E"
+    },
+    {
+        "name": "Joe Pass",
+        "songTitle": "Stella By Starlight",
+        "fileName": "joe-pass_stella-by-starlight.mp3",
+        "image": "joe-pass.jpg",
+        "info": "https://www.youtube.com/watch?v=jN0oEWuc_Ng"
+    },
+    {
+        "name": "Joe Pass",
+        "songTitle": "Joe's Blues",
+        "fileName": "joe-pass_joes-blues.mp3",
+        "image": "joe-pass.jpg",
+        "info": "https://www.youtube.com/watch?v=hpljiP_7ubw"
+    },
+    {
+        "name": "Joe Pass",
+        "songTitle": "Giant Steps",
+        "fileName": "joe-pass_giant-steps.mp3",
+        "image": "joe-pass.jpg",
+        "info": "https://www.youtube.com/watch?v=rg4sR5JXM8I"
+    },
+    {
+        "name": "Joe Pass",
+        "songTitle": "My Funny Valentine",
+        "fileName": "joe-pass_my-funny-valentine.mp3",
+        "image": "joe-pass.jpg",
+        "info": "https://www.youtube.com/watch?v=2FrNbEnNTpY"
+    },
+    {
+        "name": "John Abercrombie",
+        "songTitle": "I Wish I Knew",
+        "fileName": "john-abercrombie_i-wish-i-knew.mp3",
+        "image": "john-abercrombie.jpg",
+        "info": "https://www.youtube.com/watch?v=Le-jrgn8MMI"
+    },
+    {
+        "name": "John McLaughlin",
+        "songTitle": "My Favorite Things",
+        "fileName": "john-mclaughlin_my-favorite-things.mp3",
+        "image": "john-mclaughlin.jpg",
+        "info": "https://www.youtube.com/watch?v=tiBWrLaBzzQ"
+    },
+    {
+        "name": "John Pisano",
+        "songTitle": "Yesterdays",
+        "fileName": "john-pisano_yesterdays.mp3",
+        "image": "john-pisano.jpg",
+        "info": "https://www.youtube.com/watch?v=TqljWSNc_OA"
     },
     {
         "name": "John Scofield",
@@ -119,11 +336,46 @@ tracks = [
         "info": "Unknown"
     },
     {
+        "name": "Johnny Smith",
+        "songTitle": "Misty",
+        "fileName": "johnny-smith_misty.mp3",
+        "image": "johnny-smith.jpg",
+        "info": "https://www.youtube.com/watch?v=a-JwpEhvvKE"
+    },
+    {
+        "name": "Julian Lage",
+        "songTitle": "St. Thomas",
+        "fileName": "julian-lage_st-thomas.mp3",
+        "image": "julian-lage.jpg",
+        "info": "https://www.youtube.com/watch?v=OZa7Na3mJLA"
+    },
+    {
         "name": "Kenny Burrell",
         "songTitle": "Saturday Night Blues",
         "fileName": "kenny-burrell_saturday-night-blues.mp3",
-        "image": "kenny-burrel.jpg",
+        "image": "kenny-burrell.jpeg",
         "info": "Unknown"
+    },
+    {
+        "name": "Kevin Eubanks",
+        "songTitle": "Time Line",
+        "fileName": "kevin-eubanks_timeline.mp3",
+        "image": "kevin-eubanks.jpg",
+        "info": "https://www.youtube.com/watch?v=22d8kRBeQ6s"
+    },
+    {
+        "name": "Lage Lund",
+        "songTitle": "Time After Time",
+        "fileName": "lage-lund_time-after-time.mp3",
+        "image": "lage-lund.jpg",
+        "info": "https://www.youtube.com/watch?v=XotR6CtzGQE"
+    },
+    {
+        "name": "Larry Carlton",
+        "songTitle": "So What",
+        "fileName": "larry-carlton_so-what.mp3",
+        "image": "larry-carlton.jpg",
+        "info": "https://www.youtube.com/watch?v=giRayK4fQkg"
     },
     {
         "name": "Larry Coryell",
@@ -133,6 +385,13 @@ tracks = [
         "info": "Unknown"
     },
     {
+        "name": "Lee Ritenour",
+        "songTitle": "Blue in Green",
+        "fileName": "lee-ritenour_blue-in-green.mp3",
+        "image": "lee-ritenour.jpg",
+        "info": "https://www.youtube.com/watch?v=F6QA41Wck98"
+    },
+    {
         "name": "Lenny Breau",
         "songTitle": "Lullaby Of Birdland",
         "fileName": "lenny-breau_lullaby-of-birdland.mp3",
@@ -140,11 +399,39 @@ tracks = [
         "info": "Unknown"
     },
     {
+        "name": "Les Paul",
+        "songTitle": "How High The Moon",
+        "fileName": "les-paul_how-high-the-moon.mp3",
+        "image": "les-paul.jpg",
+        "info": "https://www.youtube.com/watch?v=NkGf1GHAxhE"
+    },
+    {
+        "name": "Mary Osborne",
+        "songTitle": "I'll Remember April",
+        "fileName": "mary-osborne_i'll-remember-april.mp3",
+        "image": "mary-osborne.jpg",
+        "info": "https://www.youtube.com/watch?v=4_-4UfQxtv4"
+    },
+    {
+        "name": "Mick Goodrick",
+        "songTitle": "Lost In The Shuffle",
+        "fileName": "mick-goodrick_lost-in-the-shuffle.mp3",
+        "image": "mick-goodrick.jpg",
+        "info": "https://www.youtube.com/watch?v=ry5Al4YHNe4"
+    },
+    {
         "name": "Mike Stern",
         "songTitle": "Like Someone In Love",
         "fileName": "mike-stern_like-someone-in-love.mp3",
         "image": "mike-stern.jpg",
         "info": "Standards"
+    },
+    {
+        "name": "Mundell Lowe",
+        "songTitle": "I'll Never Be The Same",
+        "fileName": "mundell-lowe_i'll-never-be-the-same.mp3",
+        "image": "mundell-lowe.jpg",
+        "info": "https://www.youtube.com/watch?v=K3Y1AeSPqW0"
     },
     {
         "name": "Pat Martino",
@@ -161,11 +448,60 @@ tracks = [
         "info": "Question and Answer"
     },
     {
+        "name": "Robben Ford",
+        "songTitle": "It Don't Mean A Thing(If It Ain't Got That Swing)",
+        "fileName": "robben-ford_it-don't-mean-a-thing.mp3",
+        "image": "robben-ford.jpg",
+        "info": "https://www.youtube.com/watch?v=rAH52xh65cE"
+    },
+    {
+        "name": "Ron Eschete",
+        "songTitle": "Love For Sale",
+        "fileName": "ron-eschete_love-for-sale.mp3",
+        "image": "ron-eschete.jpg",
+        "info": "https://www.youtube.com/watch?v=UNBntxA2XHI"
+    },
+    {
+        "name": "Slim Gaillard",
+        "songTitle": "How High The Moon",
+        "fileName": "slim-gaillard_how-high-the-moon.mp3",
+        "image": "slim-gaillard.jpeg",
+        "info": "https://www.youtube.com/watch?v=R08DrJTs4_o"
+    },
+    {
+        "name": "Stanley Jordan",
+        "songTitle": "Autumn Leaves",
+        "fileName": "stanley-jordan_autumn-leaves.mp3",
+        "image": "stanley-jordan.jpg",
+        "info": "https://www.youtube.com/watch?v=MxqzKIHx5Y4"
+    },
+    {
+        "name": "Stochelo Rosenberg",
+        "songTitle": "Sunny",
+        "fileName": "stochelo-rosenberg_sunny.mp3",
+        "image": "stochelo-rosenberg.jpg",
+        "info": "https://www.youtube.com/watch?v=Fh1PXAWPMv4"
+    },
+    {
         "name": "Tal Farlow",
         "songTitle": "How About You?",
         "fileName": "tal-farlow_how-about-you.mp3",
         "image": "tal-farlow.jpg",
         "info": "Unknown"
+    },
+    {
+        "name": "Ted Greene",
+        "songTitle": "Autumn Leaves",
+        "fileName": "ted-greene_autumn-leaves.mp3",
+        "image": "ted-greene.jpg",
+        "info": "https://www.youtube.com/watch?v=zDuee6blvj8"
+    },
+    {
+        "name": "Tuck Andress",
+        "songTitle": "Over The Rainbow",
+        "fileName": "tuck-andress_over-the-rainbow.mp3",
+        "image": "tuck-andress.jpg",
+        "info": "https://www.youtube.com/watch?v=6gVRJcq083g"
     },
     {
         "name": "Wes Montgomery",
@@ -174,5 +510,22 @@ tracks = [
         "image": "wes-montgomery.jpg",
         "info": "Unknown"
     },
+    {
+        "name": "Wolfgang Muthspiel",
+        "songTitle": "For Django",
+        "fileName": "wolfgang-muthspiel_for-django.mp3",
+        "image": "wolfgang-muthspiel.jpg",
+        "info": "https://www.youtube.com/watch?v=HSUD1_nHiZ4"
+    },
 ]
 
+
+
+
+    //     {
+    //     "name": "",
+    //     "songTitle": "",
+    //     "fileName": "",
+    //     "image": "",
+    //     "info": ""
+    // },
