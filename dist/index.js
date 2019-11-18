@@ -29,7 +29,7 @@
     score.textContent = scoreCount;
     questionCount.textContent = `${questionCountCounter}/10`;
     lives.textContent = livesCount;
-    successSFX.src = './audio/sfx/success/gregg-omnisphere2.mp3';
+    successSFX.src = './audio/sfx/success/gregg-omnisphere5.mp3';
     // failureSFX.src = './audio/sfx/failure/Soft.wav';
     failureSFX.src = './audio/sfx/failure/2_DANCE_FX_DANCE_1_003.mp3';
     gameOverSFX.src = './audio/sfx/game_over/Cutting Power.mp3';
@@ -156,6 +156,7 @@
                 <i class="fa fa-play" aria-hidden="true">
                 </i>
                 <span>Play Again?</span>`;
+        button.classList.add('start-game-btn');
         button.style.padding = '3rem 1.5rem';
         button.querySelector('i').style.fontSize = '4rem';
         gameOverDisplay.appendChild(button);

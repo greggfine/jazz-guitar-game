@@ -19,13 +19,19 @@ body{
     display: flex;
     justify-content: center;
     height: 10px;
+    // margin-top: 40px;
     margin-bottom: 10px;
 
     button {
         padding: 20px;
+        border-radius: 4px;
         margin-right: 30px;
         line-height: 5px;
-        border: 10px solid #8f8f8f;
+        border: 8px solid #8f8f8f;
+        &:hover {
+            transform: scale(1.01);
+            border: 8px solid #b39ddb;
+        }
     }
 }
 
@@ -67,7 +73,7 @@ img {
 #question-answer-display {
     // border: 1px solid #000;
     height: 300px;
-    margin: 0 40px 10px;
+    margin: 0 40px 14px;
     background-color: rgba(220, 220, 200, 0.2);
 }
 
@@ -105,11 +111,23 @@ img {
     }
 }
 
-#start-game-btn {
+.start-game-btn {
     padding: 3rem 1.5rem;
     display: flex;
     align-items: center;
     border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: -1px -1px 13px 2px #999;
+        &:hover {
+            transform: scale(1.01);
+            background-color: rgb(245, 245, 245);
+        }
+        &:active {
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
     i {
         font-size: 4rem;
         color: darkgreen;
@@ -181,9 +199,8 @@ img {
     .btn-group {
         padding-bottom: 60px;
         button {
-            margin-right: 15px;
-            padding: 15px;
-            font-size: 0.8rem;
+            margin-right: 10px;
+            font-size: 0.9rem;
         }
     }
 
@@ -192,13 +209,18 @@ img {
         margin-top: 0px;
     }
 
+    img {
+        border-radius: 5px;
+    }
     .lives-score-count-wrapper{
         font-size: 0.8rem;
+        border-bottom: 0.5px solid rgba(230, 230, 230, 0.2);
     }
 
     #question-answer-display {
         background-color: transparent;
         border: none;
+        margin: 0 40px 30px;
     }
 
     #volume-control {
@@ -232,8 +254,18 @@ img {
 }
 
 @media screen and (max-width: 400px){
+    .btn-group {
+        padding-bottom: 60px;
+        button {
+            box-sizing: content-box;
+            padding: 20px;
+            margin-right: 10px;
+            font-size: 0.7rem;
+            line-height: 15px;
+        }
+    }
     #question-answer-display {
-        margin: 0 auto 0px;
+        margin: 0 auto 40px;
     }
 
     .youtube-wrapper {
