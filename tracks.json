@@ -21,6 +21,27 @@ tracks = [
         "info": "Unknown"
     },
     {
+        "name": "Barney Kessel",
+        "songTitle": "Autumn Leaves",
+        "fileName": "barney-kessel_autumn-leaves.mp3",
+        "image": "barney-kessel.jpg",
+        "info": "https://www.youtube.com/watch?v=m-lEynTDX4s"
+    },
+    {
+        "name": "Barney Kessel",
+        "songTitle": "I'll Remember April",
+        "fileName": "barney-kessel_i'll-remember-april.mp3",
+        "image": "barney-kessel.jpg",
+        "info": "https://www.youtube.com/watch?v=UjDq4UzMeG8"
+    },
+    {
+        "name": "Barney Kessel",
+        "songTitle": "Let's Cook",
+        "fileName": "barney-kessel_let's-cook.mp3",
+        "image": "barney-kessel.jpg",
+        "info": "https://www.youtube.com/watch?v=lSiBACBzvLw"
+    },
+    {
         "name": "Barry Galbraith",
         "songTitle": "He Was Too Good To Me",
         "fileName": "barry-galbraith_he-was-too-good-to-me.mp3",
@@ -203,6 +224,27 @@ tracks = [
         "info": "Green Stree(1961)"
     },
     {
+        "name": "Grant Green",
+        "songTitle": "Miss Ann's Tempo",
+        "fileName": "grant-green_miss-ann's-tempo.mp3",
+        "image": "grant-green.jpg",
+        "info": "https://www.youtube.com/watch?v=2aiw_MDVgtQ"
+    },
+    {
+        "name": "Grant Green",
+        "songTitle": "I Wish You Love",
+        "fileName": "grant-green_i-wish-you-love.mp3",
+        "image": "grant-green.jpg",
+        "info": "https://www.youtube.com/watch?v=08balpAm9Ak"
+    },
+    {
+        "name": "Grant Green",
+        "songTitle": "All The Things Your Are",
+        "fileName": "grant-green_all-the-things-you-are.mp3",
+        "image": "grant-green.jpg",
+        "info": "https://www.youtube.com/watch?v=t6KR6WJ_zBU"
+    },
+    {
         "name": "Hank Garland",
         "songTitle": "Cherokee",
         "fileName": "hank-garland_cherokee.mp3",
@@ -215,6 +257,27 @@ tracks = [
         "fileName": "herb-ellis_sweetheart-blues.mp3",
         "image": "herb-ellis.jpg",
         "info": "Ellis in Wonderland"
+    },
+    {
+        "name": "Herb Ellis",
+        "songTitle": "Danny Boy",
+        "fileName": "herb-ellis_danny-boy.mp3",
+        "image": "herb-ellis.jpg",
+        "info": "https://www.youtube.com/watch?v=KNgWLN-0Ybo"
+    },
+    {
+        "name": "Herb Ellis",
+        "songTitle": "Inka-Dinka-Doo",
+        "fileName": "herb-ellis_inka-dinka-doo.mp3",
+        "image": "herb-ellis.jpg",
+        "info": "https://www.youtube.com/watch?v=rCpGmtdxT3A"
+    },
+    {
+        "name": "Herb Ellis",
+        "songTitle": "They Didn't Believe Me",
+        "fileName": "heb-ellis_they-didn't-believe-me.mp3",
+        "image": "herb-ellis.jpg",
+        "info": "https://www.youtube.com/watch?v=rCpGmtdxT3A"
     },
     {
         "name": "Howard Alden",
@@ -243,6 +306,27 @@ tracks = [
         "fileName": "jim-hall_my-kinda-love.mp3",
         "image": "jim-hall.jpg",
         "info": "Unknown"
+    },
+    {
+        "name": "Jim Hall",
+        "songTitle": "Bag's Groove",
+        "fileName": "jim-hall_bag's-groove.mp3",
+        "image": "jim-hall.jpg",
+        "info": "https://www.youtube.com/watch?v=xIqNILwBpLw"
+    },
+    {
+        "name": "Jim Hall",
+        "songTitle": "My Funny Valentine",
+        "fileName": "jim-hall_my-funny-valentine.mp3",
+        "image": "jim-hall.jpg",
+        "info": "https://www.youtube.com/watch?v=QJ3kiFBrKpQ"
+    },
+    {
+        "name": "Jim Hall",
+        "songTitle": "St. Thomas",
+        "fileName": "jim-hall_st-thomas.mp3",
+        "image": "jim-hall.jpg",
+        "info": "https://www.youtube.com/watch?v=ia9nuwiljGg"
     },
     {
         "name": "Jimmy Raney",
@@ -355,6 +439,27 @@ tracks = [
         "fileName": "kenny-burrell_saturday-night-blues.mp3",
         "image": "kenny-burrell.jpeg",
         "info": "Unknown"
+    },
+    {
+        "name": "Kenny Burrell",
+        "songTitle": "Moon And Sand",
+        "fileName": "kenny-burrell_moon-and-sand.mp3",
+        "image": "kenny-burrell.jpeg",
+        "info": "https://www.youtube.com/watch?v=QuyTO3kaSsk"
+    },
+    {
+        "name": "Kenny Burrell",
+        "songTitle": "Tin Tin Deo",
+        "fileName": "kenny-burrell_tin-tin-deo.mp3",
+        "image": "kenny-burrell.jpeg",
+        "info": "https://www.youtube.com/watch?v=qSVL1V22_Hw"
+    },
+    {
+        "name": "Kenny Burrell",
+        "songTitle": "Stormy Monday Blues",
+        "fileName": "kenny-burrell_stormy-monday-blues.mp3",
+        "image": "kenny-burrell.jpeg",
+        "info": "https://www.youtube.com/watch?v=6z4NWAvWNy4"
     },
     {
         "name": "Kevin Eubanks",
@@ -509,6 +614,27 @@ tracks = [
         "fileName": "wes-montgomery_west-coast-blues.mp3",
         "image": "wes-montgomery.jpg",
         "info": "Unknown"
+    },
+    {
+        "name": "Wes Montgomery",
+        "songTitle": "Full House",
+        "fileName": "wes-montgomery_full-house.mp3",
+        "image": "wes-montgomery.jpg",
+        "info": "https://www.youtube.com/watch?v=fP1Bw0wKZtU"
+    },
+    {
+        "name": "Wes Montgomery",
+        "songTitle": "Round Midnight",
+        "fileName": "wes-montgomery_round-midnight.mp3",
+        "image": "wes-montgomery.jpg",
+        "info": "https://www.youtube.com/watch?v=MOm17yw__6U"
+    },
+    {
+        "name": "Wes Montgomery",
+        "songTitle": "Here's That Rainy Day",
+        "fileName": "wes-montgomery_here's-that-rainy-day.mp3",
+        "image": "wes-montgomery.jpg",
+        "info": "https://www.youtube.com/watch?v=-iVgONy8kMY"
     },
     {
         "name": "Wolfgang Muthspiel",
