@@ -1,25 +1,25 @@
 "use strict";
 
 (function() {
-    const score = document.getElementById('score'),
-          lives = document.getElementById('lives'),
-          startGameBtn = document.getElementById('start-game-btn'),
-          startGameDisplay = document.getElementById('start-game-display'),
-          questionAndAnswerDisplay = document.getElementById('question-answer-display'),
-          scoreWrapper = document.getElementById('score-wrapper'),
-          livesWrapper = document.getElementById('lives-wrapper'),
-          volumeControl = document.getElementById('volume-control'),
-          questionCount = document.getElementById('question-count'),
-          whoIsThis = document.getElementById('who-is-this'),
-          playGame = document.getElementById('play-game'),
+    const score = document.querySelector('.score'),
+          lives = document.querySelector('.lives'),
+          startGameBtn = document.querySelector('.start-game-btn'),
+          startGameDisplay = document.querySelector('.start-game-display'),
+          questionAndAnswerDisplay = document.querySelector('.question-answer-display'),
+          scoreWrapper = document.querySelector('.score-wrapper'),
+          livesWrapper = document.querySelector('.lives-wrapper'),
+          volumeControl = document.querySelector('.volume-control'),
+          questionCount = document.querySelector('.question-count'),
+          whoIsThis = document.querySelector('.who-is-this'),
+          playGame = document.querySelector('.play-game'),
           btnGroup = playGame.querySelector('.btn-group'),
-          gameOverDisplay = document.getElementById('game-over'),
+          gameOverDisplay = document.querySelector('.game-over'),
+          container = document.querySelector('.container'),
           audio = document.createElement('audio'),
           successSFX = document.createElement('audio'),
           failureSFX = document.createElement('audio'),
           gameOverSFX = document.createElement('audio'),
-          img = document.createElement('img'),
-          container = document.querySelector('.container');
+          img = document.createElement('img');
 
     let scoreCount = 0,
         questionCountCounter = 1,
@@ -141,7 +141,7 @@
             gameOverSFX.play();
             img.style.display = playGame.style.display = 'none';
             gameOverDisplay.innerHTML = `<h1>Game Over<h1>
-                 <h2>Final Score: ${scoreCount}<h2>`
+                                        <h2>Final Score: ${scoreCount}<h2>`
                  gameOverDisplay.classList.add('game-over-display')
             createPlayAgainButton();
         }, 2000)
@@ -155,8 +155,7 @@
     function createPlayAgainButton(){
         const button = document.createElement('button');
         button.innerHTML = `
-                <i class="fa fa-play" aria-hidden="true">
-                </i>
+                <i class="fa fa-play" aria-hidden="true"></i>
                 <span>Play Again?</span>`;
         button.classList.add('play-again-btn');
         gameOverDisplay.appendChild(button);

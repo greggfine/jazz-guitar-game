@@ -91,6 +91,27 @@ tracks = [
         "info": "1941"
     },
     {
+        "name": "Charlie Christian",
+        "songTitle": "Seven Come Eleven",
+        "fileName": "charlie-christian_seven-come-eleven.mp3",
+        "image": "charlie-christian.jpg",
+        "info": "https://www.youtube.com/watch?v=mOnhcdAMInA"
+    },
+   {
+        "name": "Charlie Christian",
+        "songTitle": "Stompin' At The Savoy",
+        "fileName": "charlie-christian_stompin-at-the-savoy.mp3",
+        "image": "charlie-christian.jpg",
+        "info": "https://www.youtube.com/watch?v=x52x5hjpD5k"
+    },
+   {
+        "name": "Charlie Christian",
+        "songTitle": "I've Found A New Baby",
+        "fileName": "charlie-christian_i've-found-a-new-baby.mp3",
+        "image": "charlie-christian.jpg",
+        "info": "https://www.youtube.com/watch?v=StIk6pjRt78"
+    },
+    {
         "name": "Chuck Loeb",
         "songTitle": "Like Someone In Love",
         "fileName": "chuck-loeb_like-someone-in-love.mp3",
@@ -103,6 +124,27 @@ tracks = [
         "fileName": "chuck-wayne_tasty-pudding.mp3",
         "image": "chuck-wayne.jpg",
         "info": "https://www.youtube.com/watch?v=M0B9BGs6B-s"
+    },
+    {
+        "name": "Chuck Wayne",
+        "songTitle": "Sidewalks of Cuba",
+        "fileName": "chuck-wayne_sidewalks-of-cuba.mp3",
+        "image": "chuck-wayne.jpg",
+        "info": "https://www.youtube.com/watch?v=JvKjFleDP0s"
+    },
+    {
+        "name": "Chuck Wayne",
+        "songTitle": "You Brought A New Kind Of Love To Me",
+        "fileName": "chuck-wayne_you-brought-a-new-kind-of-love-to-me.mp3",
+        "image": "chuck-wayne.jpg",
+        "info": "https://www.youtube.com/watch?v=5oqU4pCgbYw"
+    },
+    {
+        "name": "Chuck Wayne",
+        "songTitle": "Softly As In A Morning Sunrise",
+        "fileName": "chuck-wayne_softly-as-in-a-morning-sunrise.mp3",
+        "image": "chuck-wayne.jpg",
+        "info": "https://www.youtube.com/watch?v=RpplWqinqto"
     },
     {
         "name": "Django Reinhardt",
@@ -161,11 +203,53 @@ tracks = [
         "info": "Unknown"
     },
     {
+        "name": "Eddie Lang",
+        "songTitle": "April Kisses",
+        "fileName": "eddie-lang_april-kisses.mp3",
+        "image": "eddie-lang.jpg",
+        "info": "https://www.youtube.com/watch?v=hc1zuJ3VjLI"
+    },
+    {
+        "name": "Eddie Lang",
+        "songTitle": "I'll Never Be The Same",
+        "fileName": "eddie-lang_i'll-never-be-the-same.mp3",
+        "image": "eddie-lang.jpg",
+        "info": "https://www.youtube.com/watch?v=gdx0SN3wrUI"
+    },
+    {
+        "name": "Eddie Lang",
+        "songTitle": "Rainbow Dreams",
+        "fileName": "eddie-lang_rainbow-dreams.mp3",
+        "image": "eddie-lang.jpg",
+        "info": "https://www.youtube.com/watch?v=86ifwEYtSJQ"
+    },
+    {
         "name": "Emily Remler",
         "songTitle": "Blue For Herb",
         "fileName": "emily-remler_blues-for-herb.mp3",
         "image": "emily-remler.jpg",
         "info": "Unknown"
+    },
+    {
+        "name": "Emily Remler",
+        "songTitle": "Strollin'",
+        "fileName": "emily-remler_strollin.mp3",
+        "image": "emily-remler.jpg",
+        "info": "https://www.youtube.com/watch?v=Ef7uqh_IJ5o"
+    },
+    {
+        "name": "Emily Remler",
+        "songTitle": "Look To The Sky",
+        "fileName": "emily-remler_look-to-the-sky.mp3",
+        "image": "emily-remler.jpg",
+        "info": "https://www.youtube.com/watch?v=Ef7uqh_IJ5o"
+    },
+    {
+        "name": "Emily Remler",
+        "songTitle": "Movin' Along",
+        "fileName": "emily-remler_movin-along.mp3",
+        "image": "emily-remler.jpg",
+        "info": "https://www.youtube.com/watch?v=Ef7uqh_IJ5o"
     },
     {
         "name": "Eric Gale",
@@ -187,6 +271,27 @@ tracks = [
         "fileName": "gabor-szabo_breezin.mp3",
         "image": "gabor-szabo.jpg",
         "info": "https://www.youtube.com/watch?v=ibhh_z6pG6c"
+    },
+    {
+        "name": "Gabor Szabo",
+        "songTitle": "Mizrab",
+        "fileName": "gabor-szabo_mizrab.mp3",
+        "image": "gabor-szabo.jpg",
+        "info": "https://www.youtube.com/watch?v=krum1Vg-Rqc"
+    },
+    {
+        "name": "Gabor Szabo",
+        "songTitle": "Sombrero Sam",
+        "fileName": "gabor-szabo_sombrero-sam.mp3",
+        "image": "gabor-szabo.jpg",
+        "info": "https://www.youtube.com/watch?v=ZV7U8bZ-wWY"
+    },
+    {
+        "name": "Gabor Szabo",
+        "songTitle": "Close To You",
+        "fileName": "gabor-szabo_close-to-you.mp3",
+        "image": "gabor-szabo.jpg",
+        "info": "https://www.youtube.com/watch?v=ZV7U8bZ-wWY"
     },
     {
         "name": "Gene Bertoncini",
@@ -215,6 +320,27 @@ tracks = [
         "fileName": "george-van-eps_spanish-eyes.mp3",
         "image": "george-van-eps.jpg",
         "info": "https://www.youtube.com/watch?v=jEhYOtkT4xc"
+    },
+    {
+        "name": "George Van Eps",
+        "songTitle": "I'll Remember April",
+        "fileName": "george-van-eps_i'll-remember-april.mp3",
+        "image": "george-van-eps.jpg",
+        "info": "https://www.youtube.com/watch?v=DOyVdbjOFL0"
+    },
+    {
+        "name": "George Van Eps",
+        "songTitle": "Have You Met Miss Jones",
+        "fileName": "george-van-eps_have-you-met-miss-jones.mp3",
+        "image": "george-van-eps.jpg",
+        "info": "https://www.youtube.com/watch?v=DOyVdbjOFL0"
+    },
+    {
+        "name": "George Van Eps",
+        "songTitle": "Dancing On The Ceiling",
+        "fileName": "george-van-eps_dancing-on-the-ceiling.mp3",
+        "image": "george-van-eps.jpg",
+        "info": "https://www.youtube.com/watch?v=DOyVdbjOFL0"
     },
     {
         "name": "Grant Green",
@@ -252,6 +378,27 @@ tracks = [
         "info": "https://www.youtube.com/watch?v=JroZoAtJn9I"
     },
     {
+        "name": "Hank Garland",
+        "songTitle": "Move",
+        "fileName": "hank-garland_move.mp3",
+        "image": "hank-garland.jpg",
+        "info": "https://www.youtube.com/watch?v=qniip5vj4U4"
+    },
+    {
+        "name": "Hank Garland",
+        "songTitle": "Autumn Leaves",
+        "fileName": "hank-garland_autumn-leaves.mp3",
+        "image": "hank-garland.jpg",
+        "info": "https://www.youtube.com/watch?v=FWMEH8LfS3Y"
+    },
+    {
+        "name": "Hank Garland",
+        "songTitle": "All The Things You Are",
+        "fileName": "hank-garland_all-the-things-you-are.mp3",
+        "image": "hank-garland.jpg",
+        "info": "https://www.youtube.com/watch?v=RM1wOVP0oac"
+    },
+    {
         "name": "Herb Ellis",
         "songTitle": "Sweetheart Blues",
         "fileName": "herb-ellis_sweetheart-blues.mp3",
@@ -285,6 +432,27 @@ tracks = [
         "fileName": "howard-alden_tune-for-a-lyric.mp3",
         "image": "howard-alden.jpg",
         "info": "https://www.youtube.com/watch?v=AFr5vBfCMSA"
+    },
+    {
+        "name": "Howard Alden",
+        "songTitle": "Loose Bloose",
+        "fileName": "howard-alden_loose-bloose.mp3",
+        "image": "howard-alden.jpg",
+        "info": "https://www.youtube.com/watch?v=AFr5vBfCMSA&t=109s"
+    },
+    {
+        "name": "Howard Alden",
+        "songTitle": "Displacement",
+        "fileName": "howard-alden_displacement.mp3",
+        "image": "howard-alden.jpg",
+        "info": "https://www.youtube.com/watch?v=AFr5vBfCMSA&t=109s"
+    },
+    {
+        "name": "Howard Alden",
+        "songTitle": "Time Remembered",
+        "fileName": "howard-alden_time-remembered.mp3",
+        "image": "howard-alden.jpg",
+        "info": "https://www.youtube.com/watch?v=AFr5vBfCMSA&t=109s"
     },
     {
         "name": "Howard Roberts",
@@ -334,6 +502,27 @@ tracks = [
         "fileName": "jimmy-raney_autumn-leaves.mp3",
         "image": "jimmy-raney.jpg",
         "info": "Unknown"
+    },
+    {
+        "name": "Jimmy Raney",
+        "songTitle": "Long Ago And Far Away",
+        "fileName": "jimmy-raney_long-ago-and-far-away.mp3",
+        "image": "jimmy-raney.jpg",
+        "info": "https://www.youtube.com/watch?v=MrJh5XjXxrs"
+    },
+    {
+        "name": "Jimmy Raney",
+        "songTitle": "But Beautiful",
+        "fileName": "jimmy-raney_but-beautiful.mp3",
+        "image": "jimmy-raney.jpg",
+        "info": "https://www.youtube.com/watch?v=MrJh5XjXxrs"
+    },
+    {
+        "name": "Jimmy Raney",
+        "songTitle": "Indian Summer",
+        "fileName": "jimmy-raney_indian-summer.mp3",
+        "image": "jimmy-raney.jpg",
+        "info": "https://www.youtube.com/watch?v=MrJh5XjXxrs"
     },
     {
         "name": "Joe Diorio",
@@ -420,6 +609,27 @@ tracks = [
         "info": "Unknown"
     },
     {
+        "name": "John Scofield",
+        "songTitle": "I'll Take Less",
+        "fileName": "john-scofield_i'll-take-less.mp3",
+        "image": "john-scofield.png",
+        "info": "https://www.youtube.com/watch?v=VLMS8DJGvRA&list=PL906F3C27B7EBFD1C"
+    },
+    {
+        "name": "John Scofield",
+        "songTitle": "Dark Blue",
+        "fileName": "john-scofield_dark-blue.mp3",
+        "image": "john-scofield.png",
+        "info": "https://www.youtube.com/watch?v=xFJvMnbi8ko&list=PL906F3C27B7EBFD1C&index=2"
+    },
+    {
+        "name": "John Scofield",
+        "songTitle": "Do Like Eddie",
+        "fileName": "john-scofield_do-like-eddie.mp3",
+        "image": "john-scofield.png",
+        "info": "Unkhttps://www.youtube.com/watch?v=lnLi7-Q7ag0&list=PL906F3C27B7EBFD1C&index=3nown"
+    },
+    {
         "name": "Johnny Smith",
         "songTitle": "Misty",
         "fileName": "johnny-smith_misty.mp3",
@@ -427,11 +637,53 @@ tracks = [
         "info": "https://www.youtube.com/watch?v=a-JwpEhvvKE"
     },
     {
+        "name": "Johnny Smith",
+        "songTitle": "Moonlight In Vermont",
+        "fileName": "johnny-smith_moonlight-in-vermont.mp3",
+        "image": "johnny-smith.jpg",
+        "info": "https://www.youtube.com/watch?v=gRNpc-hFkCs"
+    },
+    {
+        "name": "Johnny Smith",
+        "songTitle": "My Foolish Heart",
+        "fileName": "johnny-smith_my-foolish-heart.mp3",
+        "image": "johnny-smith.jpg",
+        "info": "https://www.youtube.com/watch?v=bFzekORh-gw"
+    },
+    {
+        "name": "Johnny Smith",
+        "songTitle": "Tenderly",
+        "fileName": "johnny-smith_tenderly.mp3",
+        "image": "johnny-smith.jpg",
+        "info": "https://www.youtube.com/watch?v=xbKdp5NeHnk"
+    },
+    {
         "name": "Julian Lage",
         "songTitle": "St. Thomas",
         "fileName": "julian-lage_st-thomas.mp3",
         "image": "julian-lage.jpg",
         "info": "https://www.youtube.com/watch?v=OZa7Na3mJLA"
+    },
+    {
+        "name": "Julian Lage",
+        "songTitle": "I'll Be Seeing You",
+        "fileName": "julian-lage_i'll-be-seeing-you.mp3",
+        "image": "julian-lage.jpg",
+        "info": "https://www.youtube.com/watch?v=8a3qAp81vY8"
+    },
+    {
+        "name": "Julian Lage",
+        "songTitle": "Crying",
+        "fileName": "julian-lage_crying.mp3",
+        "image": "julian-lage.jpg",
+        "info": "https://www.youtube.com/watch?v=hYRYhAGt14A"
+    },
+    {
+        "name": "Julian Lage",
+        "songTitle": "Look Book",
+        "fileName": "julian-lage_look-book.mp3",
+        "image": "julian-lage.jpg",
+        "info": "https://www.youtube.com/watch?v=yQ3aoAAjXa8"
     },
     {
         "name": "Kenny Burrell",
@@ -504,11 +756,53 @@ tracks = [
         "info": "Unknown"
     },
     {
+        "name": "Lenny Breau",
+        "songTitle": "On Green Dolphin Street",
+        "fileName": "lenny-breau_on-green-dolphin-street.mp3",
+        "image": "lenny-breau.jpg",
+        "info": "https://www.youtube.com/watch?v=UpUBDi4nyMQ"
+    },
+    {
+        "name": "Lenny Breau",
+        "songTitle": "My Foolish Heart",
+        "fileName": "lenny-breau_my-foolish-heart.mp3",
+        "image": "lenny-breau.jpg",
+        "info": "https://www.youtube.com/watch?v=nA39E8W52HY"
+    },
+    {
+        "name": "Lenny Breau",
+        "songTitle": "All Blues",
+        "fileName": "lenny-breau_all-blues.mp3",
+        "image": "lenny-breau.jpg",
+        "info": "https://www.youtube.com/watch?v=-r6LC_6sN-0"
+    },
+    {
         "name": "Les Paul",
         "songTitle": "How High The Moon",
         "fileName": "les-paul_how-high-the-moon.mp3",
         "image": "les-paul.jpg",
         "info": "https://www.youtube.com/watch?v=NkGf1GHAxhE"
+    },
+    {
+        "name": "Les Paul",
+        "songTitle": "Vaya Con Dios",
+        "fileName": "les-paul_vaya-con-dios.mp3",
+        "image": "les-paul.jpg",
+        "info": "https://www.youtube.com/watch?v=QqZ0Sdz_V40"
+    },
+    {
+        "name": "Les Paul",
+        "songTitle": "Tennessee Waltz",
+        "fileName": "les-paul_tennessee-waltz.mp3",
+        "image": "les-paul.jpg",
+        "info": "https://www.youtube.com/watch?v=Zt1m5fcRwz8"
+    },
+    {
+        "name": "Les Paul",
+        "songTitle": "Big Eyed Girl",
+        "fileName": "les-paul_big-eyed-girl.mp3",
+        "image": "les-paul.jpg",
+        "info": "https://www.youtube.com/watch?v=oPpdc9BiMQk"
     },
     {
         "name": "Mary Osborne",
@@ -532,11 +826,74 @@ tracks = [
         "info": "Standards"
     },
     {
+        "name": "Mike Stern",
+        "songTitle": "Lost Time",
+        "fileName": "mike-stern_lost-time.mp3",
+        "image": "mike-stern.jpg",
+        "info": "https://www.youtube.com/watch?v=FV7MJ16Onp4"
+    },
+    {
+        "name": "Mike Stern",
+        "songTitle": "Peace",
+        "fileName": "mike-stern_peace.mp3",
+        "image": "mike-stern.jpg",
+        "info": "https://www.youtube.com/watch?v=_g5cYhs4YQw"
+    },
+    {
+        "name": "Mike Stern",
+        "songTitle": "Moment's Notice",
+        "fileName": "mike-stern_moment's-notice.mp3",
+        "image": "mike-stern.jpg",
+        "info": "https://www.youtube.com/watch?v=nsaB9FbVBpo"
+    },
+    {
         "name": "Mundell Lowe",
         "songTitle": "I'll Never Be The Same",
         "fileName": "mundell-lowe_i'll-never-be-the-same.mp3",
         "image": "mundell-lowe.jpg",
         "info": "https://www.youtube.com/watch?v=K3Y1AeSPqW0"
+    },
+    {
+        "name": "Mundell Lowe",
+        "songTitle": "Scrapple From The Apple",
+        "fileName": "mundell-lowe_scrapple-from-the-apple.mp3",
+        "image": "mundell-lowe.jpg",
+        "info": "https://www.youtube.com/watch?v=b3_3SlDg71A"
+    },
+    {
+        "name": "Mundell Lowe",
+        "songTitle": "Satin Doll",
+        "fileName": "mundell-lowe_satin-doll.mp3",
+        "image": "mundell-lowe.jpg",
+        "info": "https://www.youtube.com/watch?v=b3_3SlDg71A"
+    },
+    {
+        "name": "Mundell Lowe",
+        "songTitle": "Angel Eyes",
+        "fileName": "mundell-lowe_angel-eyes.mp3",
+        "image": "mundell-lowe.jpg",
+        "info": "https://www.youtube.com/watch?v=b3_3SlDg71A"
+    },
+   {
+        "name": "Oscar Moore",
+        "songTitle": "Can't Get Started With You",
+        "fileName": "oscar-moore_can't-get-started-with-you.mp3",
+        "image": "oscar-moore.jpeg",
+        "info": "https://www.youtube.com/watch?v=U_dX_n83lag"
+    },
+  {
+        "name": "Oscar Moore",
+        "songTitle": "There's A Small Hotel",
+        "fileName": "oscar-moore_there's-a-small-hotel.mp3",
+        "image": "oscar-moore.jpeg",
+        "info": "https://www.youtube.com/watch?v=U_dX_n83lag"
+    },
+  {
+        "name": "Oscar Moore",
+        "songTitle": "Angel Eyes",
+        "fileName": "oscar-moore_angel-eyes.mp3",
+        "image": "oscar-moore.jpeg",
+        "info": "https://www.youtube.com/watch?v=U_dX_n83lag"
     },
     {
         "name": "Pat Martino",
@@ -546,11 +903,53 @@ tracks = [
         "info": "Desperado Album"
     },
     {
+        "name": "Pat Martino",
+        "songTitle": "Sunny",
+        "fileName": "pat-martino_sunny.mp3",
+        "image": "pat-martino.jpg",
+        "info": "https://www.youtube.com/watch?v=sD_9dTwmidw"
+    },
+    {
+        "name": "Pat Martino",
+        "songTitle": "Strings",
+        "fileName": "pat-martino_strings.mp3",
+        "image": "pat-martino.jpg",
+        "info": "https://www.youtube.com/watch?v=LWt75-eV25M"
+    },
+    {
+        "name": "Pat Martino",
+        "songTitle": "Minority",
+        "fileName": "pat-martino_minority.mp3",
+        "image": "pat-martino.jpg",
+        "info": "https://www.youtube.com/watch?v=LWt75-eV25M"
+    },
+    {
         "name": "Pat Metheny",
         "songTitle": "Solar",
         "fileName": "pat-metheny_solar.mp3",
         "image": "pat-metheny.jpg",
         "info": "Question and Answer"
+    },
+    {
+        "name": "Pat Metheny",
+        "songTitle": "Question And Answer",
+        "fileName": "pat-metheny_question-and-answer.mp3",
+        "image": "pat-metheny.jpg",
+        "info": "https://www.youtube.com/watch?v=Y1R6QTmYPwM"
+    },
+    {
+        "name": "Pat Metheny",
+        "songTitle": "All The Things You Are",
+        "fileName": "pat-metheny_all-the-things-you-are.mp3",
+        "image": "pat-metheny.jpg",
+        "info": "https://www.youtube.com/watch?v=H3nNaD8g3QY&list=PLdxh3s72rBX2r0AIPUdp7q6hWHyyWjU7m&index=7"
+    },
+    {
+        "name": "Pat Metheny",
+        "songTitle": "Old Folks",
+        "fileName": "pat-metheny_old-folks.mp3",
+        "image": "pat-metheny.jpg",
+        "info": "https://www.youtube.com/watch?v=rMYWaQ-gM4U&list=PLdxh3s72rBX2r0AIPUdp7q6hWHyyWjU7m&index=8"
     },
     {
         "name": "Robben Ford",
@@ -595,6 +994,27 @@ tracks = [
         "info": "Unknown"
     },
     {
+        "name": "Tal Farlow",
+        "songTitle": "Autumn Leaves",
+        "fileName": "tal-farlow_autumn-leaves.mp3",
+        "image": "tal-farlow.jpg",
+        "info": "https://www.youtube.com/watch?v=a7e4Jgx-Os8"
+    },
+    {
+        "name": "Tal Farlow",
+        "songTitle": "Perdido",
+        "fileName": "tal-farlow_perdido.mp3",
+        "image": "tal-farlow.jpg",
+        "info": "https://www.youtube.com/watch?v=a7e4Jgx-Os8"
+    },
+    {
+        "name": "Tal Farlow",
+        "songTitle": "Satin Doll",
+        "fileName": "tal-farlow_satin-doll.mp3",
+        "image": "tal-farlow.jpg",
+        "info": "https://www.youtube.com/watch?v=a7e4Jgx-Os8"
+    },
+    {
         "name": "Ted Greene",
         "songTitle": "Autumn Leaves",
         "fileName": "ted-greene_autumn-leaves.mp3",
@@ -607,6 +1027,27 @@ tracks = [
         "fileName": "tuck-andress_over-the-rainbow.mp3",
         "image": "tuck-andress.jpg",
         "info": "https://www.youtube.com/watch?v=6gVRJcq083g"
+    },
+    {
+        "name": "Tuck Andress",
+        "songTitle": "If I Only Had A Brain",
+        "fileName": "tuck-andress_if-i-only-had-a-brain.mp3",
+        "image": "tuck-andress.jpg",
+        "info": "https://www.youtube.com/watch?v=6gVRJcq083g"
+    },
+    {
+        "name": "Tuck Andress",
+        "songTitle": "Man In The Mirror",
+        "fileName": "tuck-andress_man-in-the-mirror.mp3",
+        "image": "tuck-andress.jpg",
+        "info": "https://www.youtube.com/watch?v=w7LFWsIOlDw"
+    },
+    {
+        "name": "Tuck Andress",
+        "songTitle": "Stella By Starlight",
+        "fileName": "tuck-andress_stella-by-starlight.mp3",
+        "image": "tuck-andress.jpg",
+        "info": "https://www.youtube.com/watch?v=EPV2OEVJrHk"
     },
     {
         "name": "Wes Montgomery",
@@ -644,14 +1085,3 @@ tracks = [
         "info": "https://www.youtube.com/watch?v=HSUD1_nHiZ4"
     },
 ]
-
-
-
-
-    //     {
-    //     "name": "",
-    //     "songTitle": "",
-    //     "fileName": "",
-    //     "image": "",
-    //     "info": ""
-    // },
