@@ -91,6 +91,27 @@ tracks = [
         "info": "1941"
     },
     {
+        "name": "Charlie Christian",
+        "songTitle": "Seven Come Eleven",
+        "fileName": "charlie-christian_seven-come-eleven.mp3",
+        "image": "charlie-christian.jpg",
+        "info": "https://www.youtube.com/watch?v=mOnhcdAMInA"
+    },
+   {
+        "name": "Charlie Christian",
+        "songTitle": "Stompin' At The Savoy",
+        "fileName": "charlie-christian_stompin-at-the-savoy.mp3",
+        "image": "charlie-christian.jpg",
+        "info": "https://www.youtube.com/watch?v=x52x5hjpD5k"
+    },
+   {
+        "name": "Charlie Christian",
+        "songTitle": "I've Found A New Baby",
+        "fileName": "charlie-christian_i've-found-a-new-baby.mp3",
+        "image": "charlie-christian.jpg",
+        "info": "https://www.youtube.com/watch?v=StIk6pjRt78"
+    },
+    {
         "name": "Chuck Loeb",
         "songTitle": "Like Someone In Love",
         "fileName": "chuck-loeb_like-someone-in-love.mp3",
@@ -166,6 +187,27 @@ tracks = [
         "fileName": "emily-remler_blues-for-herb.mp3",
         "image": "emily-remler.jpg",
         "info": "Unknown"
+    },
+    {
+        "name": "Emily Remler",
+        "songTitle": "Strollin'",
+        "fileName": "emily-remler_strollin.mp3",
+        "image": "emily-remler.jpg",
+        "info": "https://www.youtube.com/watch?v=Ef7uqh_IJ5o"
+    },
+    {
+        "name": "Emily Remler",
+        "songTitle": "Look To The Sky",
+        "fileName": "emily-remler_look-to-the-sky.mp3",
+        "image": "emily-remler.jpg",
+        "info": "https://www.youtube.com/watch?v=Ef7uqh_IJ5o"
+    },
+    {
+        "name": "Emily Remler",
+        "songTitle": "Movin' Along",
+        "fileName": "emily-remler_movin-along.mp3",
+        "image": "emily-remler.jpg",
+        "info": "https://www.youtube.com/watch?v=Ef7uqh_IJ5o"
     },
     {
         "name": "Eric Gale",
@@ -336,6 +378,27 @@ tracks = [
         "info": "Unknown"
     },
     {
+        "name": "Jimmy Raney",
+        "songTitle": "Long Ago And Far Away",
+        "fileName": "jimmy-raney_long-ago-and-far-away.mp3",
+        "image": "jimmy-raney.jpg",
+        "info": "https://www.youtube.com/watch?v=MrJh5XjXxrs"
+    },
+    {
+        "name": "Jimmy Raney",
+        "songTitle": "But Beautiful",
+        "fileName": "jimmy-raney_but-beautiful.mp3",
+        "image": "jimmy-raney.jpg",
+        "info": "https://www.youtube.com/watch?v=MrJh5XjXxrs"
+    },
+    {
+        "name": "Jimmy Raney",
+        "songTitle": "Indian Summer",
+        "fileName": "jimmy-raney_indian-summer.mp3",
+        "image": "jimmy-raney.jpg",
+        "info": "https://www.youtube.com/watch?v=MrJh5XjXxrs"
+    },
+    {
         "name": "Joe Diorio",
         "songTitle": "Solar",
         "fileName": "joe-diorio_solar.mp3",
@@ -427,11 +490,53 @@ tracks = [
         "info": "https://www.youtube.com/watch?v=a-JwpEhvvKE"
     },
     {
+        "name": "Johnny Smith",
+        "songTitle": "Moonlight In Vermont",
+        "fileName": "johnny-smith_moonlight-in-vermont.mp3",
+        "image": "johnny-smith.jpg",
+        "info": "https://www.youtube.com/watch?v=gRNpc-hFkCs"
+    },
+    {
+        "name": "Johnny Smith",
+        "songTitle": "My Foolish Heart",
+        "fileName": "johnny-smith_my-foolish-heart.mp3",
+        "image": "johnny-smith.jpg",
+        "info": "https://www.youtube.com/watch?v=bFzekORh-gw"
+    },
+    {
+        "name": "Johnny Smith",
+        "songTitle": "Tenderly",
+        "fileName": "johnny-smith_tenderly.mp3",
+        "image": "johnny-smith.jpg",
+        "info": "https://www.youtube.com/watch?v=xbKdp5NeHnk"
+    },
+    {
         "name": "Julian Lage",
         "songTitle": "St. Thomas",
         "fileName": "julian-lage_st-thomas.mp3",
         "image": "julian-lage.jpg",
         "info": "https://www.youtube.com/watch?v=OZa7Na3mJLA"
+    },
+    {
+        "name": "Julian Lage",
+        "songTitle": "I'll Be Seeing You",
+        "fileName": "julian-lage_i'll-be-seeing-you.mp3",
+        "image": "julian-lage.jpg",
+        "info": "https://www.youtube.com/watch?v=8a3qAp81vY8"
+    },
+    {
+        "name": "Julian Lage",
+        "songTitle": "Crying",
+        "fileName": "julian-lage_crying.mp3",
+        "image": "julian-lage.jpg",
+        "info": "https://www.youtube.com/watch?v=hYRYhAGt14A"
+    },
+    {
+        "name": "Julian Lage",
+        "songTitle": "Look Book",
+        "fileName": "julian-lage_look-book.mp3",
+        "image": "julian-lage.jpg",
+        "info": "https://www.youtube.com/watch?v=yQ3aoAAjXa8"
     },
     {
         "name": "Kenny Burrell",
@@ -504,11 +609,53 @@ tracks = [
         "info": "Unknown"
     },
     {
+        "name": "Lenny Breau",
+        "songTitle": "On Green Dolphin Street",
+        "fileName": "lenny-breau_on-green-dolphin-street.mp3",
+        "image": "lenny-breau.jpg",
+        "info": "https://www.youtube.com/watch?v=UpUBDi4nyMQ"
+    },
+    {
+        "name": "Lenny Breau",
+        "songTitle": "My Foolish Heart",
+        "fileName": "lenny-breau_my-foolish-heart.mp3",
+        "image": "lenny-breau.jpg",
+        "info": "https://www.youtube.com/watch?v=nA39E8W52HY"
+    },
+    {
+        "name": "Lenny Breau",
+        "songTitle": "All Blues",
+        "fileName": "lenny-breau_all-blues.mp3",
+        "image": "lenny-breau.jpg",
+        "info": "https://www.youtube.com/watch?v=-r6LC_6sN-0"
+    },
+    {
         "name": "Les Paul",
         "songTitle": "How High The Moon",
         "fileName": "les-paul_how-high-the-moon.mp3",
         "image": "les-paul.jpg",
         "info": "https://www.youtube.com/watch?v=NkGf1GHAxhE"
+    },
+    {
+        "name": "Les Paul",
+        "songTitle": "Vaya Con Dios",
+        "fileName": "les-paul_vaya-con-dios.mp3",
+        "image": "les-paul.jpg",
+        "info": "https://www.youtube.com/watch?v=QqZ0Sdz_V40"
+    },
+    {
+        "name": "Les Paul",
+        "songTitle": "Tennessee Waltz",
+        "fileName": "les-paul_tennessee-waltz.mp3",
+        "image": "les-paul.jpg",
+        "info": "https://www.youtube.com/watch?v=Zt1m5fcRwz8"
+    },
+    {
+        "name": "Les Paul",
+        "songTitle": "Big Eyed Girl",
+        "fileName": "les-paul_big-eyed-girl.mp3",
+        "image": "les-paul.jpg",
+        "info": "https://www.youtube.com/watch?v=oPpdc9BiMQk"
     },
     {
         "name": "Mary Osborne",
@@ -539,11 +686,53 @@ tracks = [
         "info": "https://www.youtube.com/watch?v=K3Y1AeSPqW0"
     },
     {
+        "name": "Mundell Lowe",
+        "songTitle": "Scrapple From The Apple",
+        "fileName": "mundell-lowe_scrapple-from-the-apple.mp3",
+        "image": "mundell-lowe.jpg",
+        "info": "https://www.youtube.com/watch?v=b3_3SlDg71A"
+    },
+    {
+        "name": "Mundell Lowe",
+        "songTitle": "Satin Doll",
+        "fileName": "mundell-lowe_satin-doll.mp3",
+        "image": "mundell-lowe.jpg",
+        "info": "https://www.youtube.com/watch?v=b3_3SlDg71A"
+    },
+    {
+        "name": "Mundell Lowe",
+        "songTitle": "Angel Eyes",
+        "fileName": "mundell-lowe_angel-eyes.mp3",
+        "image": "mundell-lowe.jpg",
+        "info": "https://www.youtube.com/watch?v=b3_3SlDg71A"
+    },
+    {
         "name": "Pat Martino",
         "songTitle": "Oleo",
         "fileName": "pat-martino_oleo.mp3",
         "image": "pat-martino.jpg",
         "info": "Desperado Album"
+    },
+    {
+        "name": "Pat Martino",
+        "songTitle": "Sunny",
+        "fileName": "pat-martino_sunny.mp3",
+        "image": "pat-martino.jpg",
+        "info": "https://www.youtube.com/watch?v=sD_9dTwmidw"
+    },
+    {
+        "name": "Pat Martino",
+        "songTitle": "Strings",
+        "fileName": "pat-martino_strings.mp3",
+        "image": "pat-martino.jpg",
+        "info": "https://www.youtube.com/watch?v=LWt75-eV25M"
+    },
+    {
+        "name": "Pat Martino",
+        "songTitle": "Minority",
+        "fileName": "pat-martino_minority.mp3",
+        "image": "pat-martino.jpg",
+        "info": "https://www.youtube.com/watch?v=LWt75-eV25M"
     },
     {
         "name": "Pat Metheny",
@@ -593,6 +782,27 @@ tracks = [
         "fileName": "tal-farlow_how-about-you.mp3",
         "image": "tal-farlow.jpg",
         "info": "Unknown"
+    },
+    {
+        "name": "Tal Farlow",
+        "songTitle": "Autumn Leaves",
+        "fileName": "tal-farlow_autumn-leaves.mp3",
+        "image": "tal-farlow.jpg",
+        "info": "https://www.youtube.com/watch?v=a7e4Jgx-Os8"
+    },
+    {
+        "name": "Tal Farlow",
+        "songTitle": "Perdido",
+        "fileName": "tal-farlow_perdido.mp3",
+        "image": "tal-farlow.jpg",
+        "info": "https://www.youtube.com/watch?v=a7e4Jgx-Os8"
+    },
+    {
+        "name": "Tal Farlow",
+        "songTitle": "Satin Doll",
+        "fileName": "tal-farlow_satin-doll.mp3",
+        "image": "tal-farlow.jpg",
+        "info": "https://www.youtube.com/watch?v=a7e4Jgx-Os8"
     },
     {
         "name": "Ted Greene",
