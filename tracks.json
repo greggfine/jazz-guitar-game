@@ -49,11 +49,39 @@ tracks = [
         "info": "https://www.youtube.com/watch?v=0lrakx9Cezs"
     },
     {
+        "name": "Barry Galbraith",
+        "songTitle": "Ruby My Dear",
+        "fileName": "barry-galbraith_ruby-my-dear.mp3",
+        "image": "barry-galbraith.jpg",
+        "info": "https://www.youtube.com/watch?v=735gYQmEdbU"
+    },
+    {
+        "name": "Barry Galbraith",
+        "songTitle": "Holiday",
+        "fileName": "barry-galbraith_holiday.mp3",
+        "image": "barry-galbraith.jpg",
+        "info": "https://www.youtube.com/watch?v=sP9wiqeJuMc"
+    },
+    {
         "name": "Billy Bauer",
         "songTitle": "It's a Blue World",
         "fileName": "bill-bauer_it's-a-blue-world.mp3",
         "image": "billy-bauer.jpeg",
         "info": "https://www.youtube.com/watch?v=qDLPDd8ZhQA"
+    },
+    {
+        "name": "Billy Bauer",
+        "songTitle": "When It's Sleepy Time Down South",
+        "fileName": "billy-bauer_when-it's-sleepy-time-down-south.mp3",
+        "image": "billy-bauer.jpeg",
+        "info": "https://www.youtube.com/watch?v=UC5rlDgkMVo"
+    },
+    {
+        "name": "Billy Bauer",
+        "songTitle": "Lullaby Of The Leaves",
+        "fileName": "billy-bauer_lullaby-of-the-leaves.mp3",
+        "image": "billy-bauer.jpeg",
+        "info": "https://www.youtube.com/watch?v=XjiyZVQLnM4"
     },
     {
         "name": "Bill Frisell",
@@ -63,11 +91,39 @@ tracks = [
         "info": "Unknown"
     },
     {
+        "name": "Bill Frisell",
+        "songTitle": "How Deep Is The Ocean",
+        "fileName": "bill-frisell_how-deep-is-the-ocean.mp3",
+        "image": "bill-frisell.jpg",
+        "info": "https://www.youtube.com/watch?v=rW5t0TYcRQQ"
+    },
+    {
+        "name": "Bill Frisell",
+        "songTitle": "Skylark",
+        "fileName": "bill-frisell_skylark.mp3",
+        "image": "bill-frisell.jpg",
+        "info": "https://www.youtube.com/watch?v=v_7bcvGRToY"
+    },
+    {
         "name": "Bireli Lagrene",
         "songTitle": "Donna Lee",
         "fileName": "bireli-lagrene_donna-lee.mp3",
         "image": "bireli-lagrene.jpg",
         "info": "https://www.youtube.com/watch?v=5bsPUn0D7ug"
+    },
+    {
+        "name": "Bireli Lagrene",
+        "songTitle": "Softly As In A Morning Sunrise",
+        "fileName": "bireli-lagrene_softly-as-in-a-morning-sunrise.mp3",
+        "image": "bireli-lagrene.jpg",
+        "info": "https://www.youtube.com/watch?v=9oU9XkAII3w"
+    },
+    {
+        "name": "Bireli Lagrene",
+        "songTitle": "Days Of Wine And Roses",
+        "fileName": "bireli-lagrene_days-of-wine-and-roses.mp3",
+        "image": "bireli-lagrene.jpg",
+        "info": "https://www.youtube.com/watch?v=9oU9XkAII3w"
     },
     {
         "name": "Bucky Pizzarelli",
@@ -77,11 +133,46 @@ tracks = [
         "info": "Unknown"
     },
     {
+        "name": "Bucky Pizzarelli",
+        "songTitle": "Way Down Yonder In New Orleans",
+        "fileName": "bucky-pizzarelli_way-down-yonder-in-new-orleans.mp3",
+        "image": "bucky-pizzarelli.jpg",
+        "info": "https://www.youtube.com/watch?v=LdfmirjP7bc"
+    },
+    {
+        "name": "Bucky Pizzarelli",
+        "songTitle": "Easy To Love",
+        "fileName": "bucky-pizzarelli_easy-to-love.mp3",
+        "image": "bucky-pizzarelli.jpg",
+        "info": "https://www.youtube.com/watch?v=LdfmirjP7bc"
+    },
+    {
         "name": "Charlie Byrd",
         "songTitle": "You Stepped Out Of A Dream",
         "fileName": "charlie-byrd_you-stepped-out-of-a-dream.mp3",
         "image": "charlie-byrd.jpg",
         "info": "Unknown"
+    },
+    {
+        "name": "Charlie Byrd",
+        "songTitle": "Jazz 'n' Samba",
+        "fileName": "charlie-byrd_jazz-n-samba.mp3",
+        "image": "charlie-byrd.jpg",
+        "info": "https://www.youtube.com/watch?v=nRABq7OJOf4"
+    },
+    {
+        "name": "Charlie Byrd",
+        "songTitle": "How Insensitive",
+        "fileName": "charlie-byrd_how-insensitive.mp3",
+        "image": "charlie-byrd.jpg",
+        "info": "https://www.youtube.com/watch?v=m_ZEcy5-cYQ"
+    },
+    {
+        "name": "Charlie Byrd",
+        "songTitle": "Taboo",
+        "fileName": "charlie-byrd_taboo.mp3",
+        "image": "charlie-byrd.jpg",
+        "info": "https://www.youtube.com/watch?v=sfQK7b6nz2I"
     },
     {
         "name": "Charlie Christian",
@@ -196,6 +287,27 @@ tracks = [
         "info": "https://www.youtube.com/watch?v=zNjxvZ84h6A"
     },
     {
+        "name": "Ed Bickert",
+        "songTitle": "Come Rain Or Come Shine",
+        "fileName": "ed-bickert_come-rain-or-come-shine.mp3",
+        "image": "ed-bickert.jpg",
+        "info": "https://www.youtube.com/watch?v=eRSKtRjf1Iw"
+    },
+    {
+        "name": "Ed Bickert",
+        "songTitle": "Where Are You?",
+        "fileName": "ed-bickert_where-are-you.mp3",
+        "image": "ed-bickert.jpg",
+        "info": "https://www.youtube.com/watch?v=eRSKtRjf1Iw"
+    },
+    {
+        "name": "Ed Bickert",
+        "songTitle": "When Sunny Gets Blue",
+        "fileName": "ed-bickert_when-sunny-gets-blue.mp3",
+        "image": "ed-bickert.jpg",
+        "info": "https://www.youtube.com/watch?v=eRSKtRjf1Iw"
+    },
+    {
         "name": "Eddie Lang",
         "songTitle": "Perfect",
         "fileName": "eddie-lang_perfect.mp3",
@@ -301,11 +413,53 @@ tracks = [
         "info": "https://www.youtube.com/watch?v=cBYcxCMKlqk"
     },
     {
+        "name": "Gene Bertoncini",
+        "songTitle": "Whisper Not",
+        "fileName": "gene-bertoncini_whisper-not.mp3",
+        "image": "gene-bertoncini.jpg",
+        "info": "https://www.youtube.com/watch?v=zd5NPs_mbGk"
+    },
+    {
+        "name": "Gene Bertoncini",
+        "songTitle": "My One And Only Love",
+        "fileName": "gene-bertoncini_my-one-and-only-love.mp3",
+        "image": "gene-bertoncini.jpg",
+        "info": "youtube.com/watch?v=hvXuQxtLBCk"
+    },
+    {
+        "name": "Gene Bertoncini",
+        "songTitle": "Dindi",
+        "fileName": "gene-bertoncini_dindi.mp3",
+        "image": "gene-bertoncini.jpg",
+        "info": "https://www.youtube.com/watch?v=SZTOrJpg72w"
+    },
+    {
         "name": "George Barnes",
         "songTitle": "Have You Met Miss Jones?",
         "fileName": "george-barnes_have-you-met-miss-jones.mp3",
         "image": "george-barnes.jpg",
         "info": "https://www.youtube.com/watch?v=9yW5F51XTjg"
+    },
+    {
+        "name": "George Barnes",
+        "songTitle": "Lover, Come Back To Me",
+        "fileName": "george-barnes_lover-come-back-to-me.mp3",
+        "image": "george-barnes.jpg",
+        "info": "https://www.youtube.com/watch?v=4bJ3CVdapPc"
+    },
+    {
+        "name": "George Barnes",
+        "songTitle": "Why Was I Born",
+        "fileName": "george-barnes_why-was-i-born.mp3",
+        "image": "george-barnes.jpg",
+        "info": "https://www.youtube.com/watch?v=_BG5yvKggQs"
+    },
+    {
+        "name": "George Barnes",
+        "songTitle": "C Jam Blues",
+        "fileName": "george-barnes_c-jam-blues.mp3",
+        "image": "george-barnes.jpg",
+        "info": "https://www.youtube.com/watch?v=tINUHnopLJo"
     },
     {
         "name": "George Benson",
@@ -462,6 +616,20 @@ tracks = [
         "info": "Unknown"
     },
     {
+        "name": "Howard Roberts",
+        "songTitle": "Watermelon Man",
+        "fileName": "howard-roberts_watermelon-man.mp3",
+        "image": "howard-roberts.jpg",
+        "info": "https://www.youtube.com/watch?v=uLImGcJPhJ0"
+    },
+    {
+        "name": "Howard Roberts",
+        "songTitle": "Sweet September",
+        "fileName": "howard-roberts_sweet-september.mp3",
+        "image": "howard-roberts.jpg",
+        "info": "https://www.youtube.com/watch?v=qGIifU5IaF8"
+    },
+    {
         "name": "Jack Wilkins",
         "songTitle": "Invitation",
         "fileName": "jack-wilkins_invitation.mp3",
@@ -495,6 +663,27 @@ tracks = [
         "fileName": "jim-hall_st-thomas.mp3",
         "image": "jim-hall.jpg",
         "info": "https://www.youtube.com/watch?v=ia9nuwiljGg"
+    },
+    {
+        "name": "Jimmy Bruno",
+        "songTitle": "Tenderly",
+        "fileName": "jimmy-bruno_tenderly.mp3",
+        "image": "jimmy-bruno.jpg",
+        "info": "https://www.youtube.com/watch?v=OTV5hfq5cbA&list=PLQex93r41WkFrkYQGhzNtcav7TaTRJaHj"
+    },
+    {
+        "name": "Jimmy Bruno",
+        "songTitle": "All The Things You Are",
+        "fileName": "jimmy-bruno_all-the-things-you-are.mp3",
+        "image": "jimmy-bruno.jpg",
+        "info": "https://www.youtube.com/watch?v=_k2eAKVzVl0&list=PLQex93r41WkFrkYQGhzNtcav7TaTRJaHj&index=4"
+    },
+    {
+        "name": "Jimmy Bruno",
+        "songTitle": "Here's That Rainy Day",
+        "fileName": "jimmy-bruno_here's-that-rainy-day.mp3",
+        "image": "jimmy-bruno.jpg",
+        "info": "https://www.youtube.com/watch?v=U262Hlik-b0&list=PLQex93r41WkFrkYQGhzNtcav7TaTRJaHj&index=6"
     },
     {
         "name": "Jimmy Raney",
@@ -588,11 +777,46 @@ tracks = [
         "info": "https://www.youtube.com/watch?v=Le-jrgn8MMI"
     },
     {
+        "name": "John Abercrombie",
+        "songTitle": "Yesterdays",
+        "fileName": "john-abercrombie_yesterdays.mp3",
+        "image": "john-abercrombie.jpg",
+        "info": "https://www.youtube.com/watch?v=0P8xp4eeW_s"
+    },
+    {
+        "name": "John Abercrombie",
+        "songTitle": "Lover Man",
+        "fileName": "john-abercrombie_lover-man.mp3",
+        "image": "john-abercrombie.jpg",
+        "info": "https://www.youtube.com/watch?v=8RD400cEBsg"
+    },
+    {
         "name": "John McLaughlin",
         "songTitle": "My Favorite Things",
         "fileName": "john-mclaughlin_my-favorite-things.mp3",
         "image": "john-mclaughlin.jpg",
         "info": "https://www.youtube.com/watch?v=tiBWrLaBzzQ"
+    },
+    {
+        "name": "John McLaughlin",
+        "songTitle": "New York On My Mind",
+        "fileName": "john-mclaughlin_new-york-on-my-mind.mp3",
+        "image": "john-mclaughlin.jpg",
+        "info": "https://www.youtube.com/watch?v=ksAQnNyhgV8"
+    },
+    {
+        "name": "John McLaughlin",
+        "songTitle": "Every Tear From Every Eye",
+        "fileName": "john-mclaughlin_every-tear-from-every-eye.mp3",
+        "image": "john-mclaughlin.jpg",
+        "info": "https://www.youtube.com/watch?v=ksAQnNyhgV8"
+    },
+    {
+        "name": "John Pisano",
+        "songTitle": "Amanacer",
+        "fileName": "john-pisano_amanacer.mp3",
+        "image": "john-pisano.jpg",
+        "info": "https://www.youtube.com/watch?v=rz3npnNjEnw"
     },
     {
         "name": "John Pisano",
@@ -728,6 +952,20 @@ tracks = [
         "info": "https://www.youtube.com/watch?v=XotR6CtzGQE"
     },
     {
+        "name": "Lage Lund",
+        "songTitle": "Hard Eights",
+        "fileName": "lage-lund_hard-eights.mp3",
+        "image": "lage-lund.jpg",
+        "info": "https://www.youtube.com/watch?v=azWu4YCHM14"
+    },
+    {
+        "name": "Lage Lund",
+        "songTitle": "Suppressions",
+        "fileName": "lage-lund_suppressions.mp3",
+        "image": "lage-lund.jpg",
+        "info": "https://www.youtube.com/watch?v=NSnIri3aYrw"
+    },
+    {
         "name": "Larry Carlton",
         "songTitle": "So What",
         "fileName": "larry-carlton_so-what.mp3",
@@ -740,6 +978,20 @@ tracks = [
         "fileName": "larry-coryell_black-orpheus.mp3",
         "image": "larry-coryell.jpg",
         "info": "Unknown"
+    },
+    {
+        "name": "Larry Coryell",
+        "songTitle": "Very Early",
+        "fileName": "larry-coryell_very-early.mp3",
+        "image": "larry-coryell.jpg",
+        "info": "https://www.youtube.com/watch?v=P9I1GL277nE"
+    },
+    {
+        "name": "Larry Coryell",
+        "songTitle": "Stowaway",
+        "fileName": "larry-coryell_stowaway.mp3",
+        "image": "larry-coryell.jpg",
+        "info": "https://www.youtube.com/watch?v=P9I1GL277nE"
     },
     {
         "name": "Lee Ritenour",
@@ -810,6 +1062,27 @@ tracks = [
         "fileName": "mary-osborne_i'll-remember-april.mp3",
         "image": "mary-osborne.jpg",
         "info": "https://www.youtube.com/watch?v=4_-4UfQxtv4"
+    },
+    {
+        "name": "Mary Osborne",
+        "songTitle": "I Love Paris",
+        "fileName": "mary-osborne_i-love-paris.mp3",
+        "image": "mary-osborne.jpg",
+        "info": "https://www.youtube.com/watch?v=lJ7IP-43aLc"
+    },
+    {
+        "name": "Mary Osborne",
+        "songTitle": "I Let A Song Go",
+        "fileName": "mary-osborne_i-let-a-song-go.mp3",
+        "image": "mary-osborne.jpg",
+        "info": "https://www.youtube.com/watch?v=lJ7IP-43aLc"
+    },
+    {
+        "name": "Mary Osborne",
+        "songTitle": "How High The Moon",
+        "fileName": "mary-osborne_how-high-the-moon.mp3",
+        "image": "mary-osborne.jpg",
+        "info": "https://www.youtube.com/watch?v=lJ7IP-43aLc"
     },
     {
         "name": "Mick Goodrick",
@@ -966,11 +1239,39 @@ tracks = [
         "info": "https://www.youtube.com/watch?v=UNBntxA2XHI"
     },
     {
+        "name": "Ron Eschete",
+        "songTitle": "To Let You Know I Care",
+        "fileName": "ron-eschete_to-let-you-know-i-care.mp3",
+        "image": "ron-eschete.jpg",
+        "info": "https://www.youtube.com/watch?v=UN74RIwaJxk"
+    },
+    {
+        "name": "Ron Eschete",
+        "songTitle": "Donna Lee",
+        "fileName": "ron-eschete_donna-lee.mp3",
+        "image": "ron-eschete.jpg",
+        "info": "https://www.youtube.com/watch?v=UN74RIwaJxk"
+    },
+    {
         "name": "Slim Gaillard",
         "songTitle": "How High The Moon",
         "fileName": "slim-gaillard_how-high-the-moon.mp3",
         "image": "slim-gaillard.jpeg",
         "info": "https://www.youtube.com/watch?v=R08DrJTs4_o"
+    },
+    {
+        "name": "Slim Gaillard",
+        "songTitle": "Poppity Pop",
+        "fileName": "slim-gaillard_poppity-pop.mp3",
+        "image": "slim-gaillard.jpeg",
+        "info": "https://www.youtube.com/watch?v=DLkQwCOacQQ"
+    },
+    {
+        "name": "Slim Gaillard",
+        "songTitle": "Communication",
+        "fileName": "slim-gaillard_communication.mp3",
+        "image": "slim-gaillard.jpeg",
+        "info": "https://www.youtube.com/watch?v=teaxWYRH9A4"
     },
     {
         "name": "Stanley Jordan",
@@ -985,6 +1286,20 @@ tracks = [
         "fileName": "stochelo-rosenberg_sunny.mp3",
         "image": "stochelo-rosenberg.jpg",
         "info": "https://www.youtube.com/watch?v=Fh1PXAWPMv4"
+    },
+    {
+        "name": "Stochelo Rosenberg",
+        "songTitle": "Blue Bossa",
+        "fileName": "stochelo-rosenberg_blue-bossa.mp3",
+        "image": "stochelo-rosenberg.jpg",
+        "info": "https://www.youtube.com/watch?v=fi1Xc0dyYTc"
+    },
+    {
+        "name": "Stochelo Rosenberg",
+        "songTitle": "I Wish    ",
+        "fileName": "stochelo-rosenberg_i-wish.mp3",
+        "image": "stochelo-rosenberg.jpg",
+        "info": "https://www.youtube.com/watch?v=4FxiZx7zyLc"
     },
     {
         "name": "Tal Farlow",
