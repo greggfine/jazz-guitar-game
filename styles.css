@@ -306,7 +306,7 @@ img {
     margin: 20px auto 0px;
   }
   .lives-score-count-wrapper {
-    height: 60px;
+    height: 65px;
     font-size: 0.8rem;
     border-bottom: 0.5px solid rgba(230, 230, 230, 0.2);
   }
@@ -333,6 +333,7 @@ img {
   }
   .lives-score-count-wrapper {
     font-size: 0.7rem;
+    height: 55px;
   }
   .question-answer-display {
     margin: 0 auto 40px;
